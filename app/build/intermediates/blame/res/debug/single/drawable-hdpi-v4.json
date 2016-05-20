@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/home/traveler/licJW/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/yolo.jpg",
+        "source": "/home/traveler/licJW/app/src/main/res/drawable-hdpi/yolo.jpg"
+    },
+    {
+        "merged": "/home/traveler/licJW/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/ic_launcher.png",
+        "source": "/home/traveler/licJW/app/src/main/res/drawable-hdpi/ic_launcher.png"
+    }
+]

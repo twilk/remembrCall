@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/home/traveler/licJW/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        revision="21.1.2"
+        sha1="fdb937e654afbd4d71982e0f10813a31c577b6f6">
+        <dex dex="/home/traveler/licJW/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_da4ff3fe75e89f1036a83abd8b79e8f9ab77e676/classes.dex" />
+    </item>
+    <item
+        jar="/home/traveler/licJW/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        revision="21.1.2"
+        sha1="477e265bbdc522aede0d0304a42d0bd7c62bf5ba">
+        <dex dex="/home/traveler/licJW/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_36687e9bde063fe5c220c1ce92eff32d63fa9d9a/classes.dex" />
+    </item>
+    <item
+        jar="/home/traveler/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/21.0.0/support-annotations-21.0.0.jar"
+        jumboMode="true"
+        revision="21.1.2"
+        sha1="1a578b9607b36266c63d43a4fa0ab5664dbe911e">
+        <dex dex="/home/traveler/licJW/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-21.0.0_fb8cc33953a2eabbd2deec697b9c9b068a2f7d64/classes.dex" />
+    </item>
+    <item
+        jar="/home/traveler/licJW/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.0/jars/classes.jar"
+        jumboMode="true"
+        revision="21.1.2"
+        sha1="686344a780033e4ba22b926cd225f8d4941247e6">
+        <dex dex="/home/traveler/licJW/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-21.0.0_e3209cb855c079b9de8ec77708a31728ada13afb/classes.dex" />
+    </item>
+    <item
+        jar="/home/traveler/licJW/app/build/intermediates/exploded-aar/com.pushbots/pushbots-lib/2.0.13/jars/classes.jar"
+        jumboMode="true"
+        revision="21.1.2"
+        sha1="635a77d3f219ad345f4b82dba86e4aabe4f35b94">
+        <dex dex="/home/traveler/licJW/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.pushbots-pushbots-lib-2.0.13_630869d430822ab109422e5eca77d31cfecfa214/classes.dex" />
+    </item>
+    <item
+        jar="/home/traveler/licJW/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.0/jars/libs/internal_impl-21.0.0.jar"
+        jumboMode="true"
+        revision="21.1.2"
+        sha1="1609e6d42d0480b0f4188e2c29f75388fa12a8f0">
+        <dex dex="/home/traveler/licJW/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-21.0.0_91c747df935fffb4e5a73d078df4b32dbf731597/classes.dex" />
+    </item>
+
+</items>

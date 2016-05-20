@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:padding="3dp"
+    android:layout_height="match_parent"
+    android:layout_marginTop="3dp"
+    android:layout_marginBottom="5dp"
+    android:layout_marginLeft="1dp"
+    android:layout_marginRight="1dp"
+    android:background="@drawable/contact_item"
+    >
+
+
+    <TextView
+        android:id="@+id/tvName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bob Marley"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textStyle="bold"
+        android:layout_alignParentTop="true"
+        android:layout_alignRight="@+id/tvPhone"
+        android:layout_alignEnd="@+id/tvPhone"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textColor="@color/costam"/>
+
+    <TextView
+        android:id="@+id/tvPhone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="(626) 336-5889"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_below="@+id/tvName"
+        android:textColor="@color/azure"/>
+
+    <SeekBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/contactSeekBar"
+        android:max="60"
+        android:progress="1"
+        android:indeterminate="false"
+        android:maxWidth="120dp"
+        android:minWidth="120dp"
+        android:layout_alignTop="@+id/seekBarProgress"
+        android:layout_toLeftOf="@+id/seekBarProgress"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginRight="8dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="dni"
+        android:id="@+id/textView"
+        android:layout_alignBaseline="@+id/seekBarProgress"
+        android:layout_alignBottom="@+id/seekBarProgress"
+        android:layout_alignRight="@+id/remindCheckBox"
+        android:layout_alignEnd="@+id/remindCheckBox"
+        android:textColor="@color/costam" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:id="@+id/seekBarProgress"
+        android:layout_toStartOf="@+id/remindCheckBox"
+        android:layout_below="@+id/tvPhone"
+        android:textColor="@color/costam"
+        android:layout_toLeftOf="@+id/remindCheckBox"
+        android:layout_marginRight="2dp"/>
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:id="@+id/remindCheckBox"
+        android:checked="false"
+        android:textSize="3mm"
+        android:layout_above="@+id/tvPhone"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="31dp"
+        android:layout_marginEnd="31dp"
+        android:scaleX="0.70"
+        android:scaleY="0.70"
+
+        android:background="@drawable/chkbox"
+        />
+
+
+
+
+</RelativeLayout>
