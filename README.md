@@ -1,44 +1,23 @@
 
+<p align="center">UNIWERSYTET GDAŃSKI</p>
 
+<p align="center">WYDZIAŁ MATEMATYKI, FIZYKI I INFORMATYKI</p>
 
-UNIWERSYTET GDAŃSKI
+**<p align="center">Jessica Tkacz</p>**
 
+**<p align="center">Tomasz Wilk</p>**
 
-WYDZIAŁ MATEMATYKI, FIZYKI I INFORMATYKI
+<p align="center"><b>Kierunek</b>: Informatyka</p>
 
+<p align="center"><b>Specjalność</b>: Aplikacje internetowe i bazy danych</p>
 
+<p align="center">Aplikacja dla systemu Android usprawniająca kontakty z bliskimi.</p>
 
+<p align="center">Praca licencjacka napisana</p>
 
-Jessica Tkacz
-Tomasz Wilk
+<p align="center">pod kierunkiem dr Włodzimierza Bzyla</p>
 
-
-
-Kierunek: Informatyka
-Specjalność: Aplikacje internetowe i bazy danych
-
-
-
-
-
-Aplikacja dla systemu Android usprawniająca kontakty z bliskimi.
-
-
-
-
-
-
-
-
-
-
-
-
-Praca licencjacka napisana
-pod kierunkiem dr Włodzimierza Bzyla
-
-
-Gdańsk 2016
+<p align="center">Gdańsk 2016</p>
 
 Spis treści
 
