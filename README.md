@@ -1,4 +1,4 @@
-(Tomasz Wilk)[Wilczyy@gmail.com]
+[Tomasz Wilk mail](Wilczyy@gmail.com)
 
 <p align="center">UNIWERSYTET GDAŃSKI</p>
 
