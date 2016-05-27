@@ -1,3 +1,4 @@
+(Tomasz Wilk)[Wilczyy@gmail.com]
 
 <p align="center">UNIWERSYTET GDAŃSKI</p>
 
