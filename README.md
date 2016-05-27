@@ -98,7 +98,7 @@ W tym rozdziale pragniemy przedstawić wybrane diagramy związane ze sposobem dz
 
 
 
- 
+
 2.2. Wymagania funkcjonalne i niefunkcjonalne
 
 Wymagania funkcjonalne:
@@ -110,12 +110,11 @@ Wymagania niefunkcjonalne:
 Oczywistym ograniczeniem jest fakt, iż aplikacja jest zorientowana na system Android i na żadnym innym nie będzie działała. Możliwe jest używanie jej zarówno na smartfonach, jak i tabletach posiadających wersję systemu Android 5.0. i wzwyż.
 Można również uruchomić aplikację w środowisku Android Studio, w którym była pisana i oglądać efekty próbnych działań na wybranym emulatorze posiadającym odpowiednią wersję systemu. 
  
- 
+
 2.6 Funkcjonalności - fragmenty kodu aplikacji
-```java
+
 a) Funkcja setContactCalls odpowiedzialna jest za dopasowanie połączeń do konkretnych kontaktów:
-
-
+```java
     public void setContactCalls(Map<String, Contact> contactsMap, Map<String, ArrayList<Call>> callsMap){
 
         final String[] numberProjection = new String[]{
@@ -166,24 +165,199 @@ a) Funkcja setContactCalls odpowiedzialna jest za dopasowanie połączeń do kon
 
 phone.close();
 ```
- 
+
 b) Funkcja CallNotification odpowiedzialna za pokazanie pojedynczej notyfikacji:
- 
+```java
+ public class CallNotification {
+
+    static int notificationNumber = 0;
+    public CallNotification(){
+    }
+
+    public void showNotification(String message, String tittle, Context context, int id, String phoneNumber) {
+        Intent intent = new Intent(Intent.ACTION_DIAL);
+        intent.setData(Uri.parse("tel:"+phoneNumber));
+
+        PendingIntent pi = PendingIntent.getActivity(context, 0, intent, 0);
+
+        Notification notification = new NotificationCompat.Builder(context)
+                .setSmallIcon(R.drawable.babcia)
+                .setContentTitle(tittle)
+                .setContentText(message)
+                .setContentIntent(pi)
+                .setAutoCancel(true)
+                .build();
+
+        NotificationManager notificationManager = (NotificationManager) context.getSystemService(context.NOTIFICATION_SERVICE);
+        notificationManager.notify(id, notification);
+        notificationNumber++;
+    }
+
+}
+```
 
 c) Głowa programu odpowiedzialna za wybieranie kontaktów nadających się do wysłania notyfikacji:
+```java
+                if(c.isChecked()){
+                    Log.i("longCall", c.name + " " + c.delay + " od ostatniej rozmowy "+ (c.getProgression()*(1000)));
+                    String tittle = "zadzwon do " + c.getName();
+                    String message = "Dzwoniles dawniej niz "+ c.getProgression() + " minut temu";
+                    String number = "" ;
+                    if (c.numbers.size() > 0 && c.numbers.get(0) != null) {
+                        number = c.numbers.get(0).number;
+                    }
 
- 
+                    if(c.getDelay() > c.getProgression()*(1000*60)){
+                        Log.i("longCall", message);
+                        new AlarmBroadcaster(context,tittle , message, number, c.id).setAlarmBroadcast(0);
+                    } else {
+                        Log.i("longCall", "dzwoniles do " + c.name + " zadzwon za " + (c.getProgression()-(c.getDelay()/(1000*60))));
+                        new AlarmBroadcaster(context, tittle, message,number, c.id)
+                                .setAlarmBroadcast((int) (c.getProgression()-(c.getDelay()/(1000*60))));
+                    }
+
+                } else {
+                    new AlarmBroadcaster(context).cancelAlarm(c.id);
+
+                }
+```
+
 d) Klasa odpowiedzialna za tworzenie alarmów systemowych, które po danym czasie wywołają funkcje wyświetlającą notyfikacje. + możliwość anulowania zakolejkowanych notyfikacji:
- 
+```java
+    public class AlarmBroadcaster {
+        private Context context;
+        private PendingIntent reminderBroadcastIntent;
 
- 
+        public  AlarmBroadcaster(Context context){
+            this.context = context;
+        }
+        public AlarmBroadcaster(Context context, String tittle, String message, String phoneNumber, String id) {
+            this.context = context;
+            Intent intent = new Intent(context, AlarmReceiver.class);
+            intent.putExtra("tittle", tittle);
+            intent.putExtra("message", message);
+            intent.putExtra("id", id);
+            intent.putExtra("phoneNumber", phoneNumber);
+            reminderBroadcastIntent = PendingIntent.getBroadcast(context, Integer.parseInt(id), intent, PendingIntent.FLAG_UPDATE_CURRENT);
+
+        }
+
+        public void setAlarmBroadcast(int minutes){
+            //Set the alarm to 10 seconds from now
+            Calendar c = Calendar.getInstance();
+            c.add(Calendar.MINUTE,  minutes);
+            long when = c.getTimeInMillis();
+            // Schedule the alarm!
+            AlarmManager alarmToBroadcast = (AlarmManager)context.getSystemService(Context.ALARM_SERVICE);
+            alarmToBroadcast.set(AlarmManager.RTC_WAKEUP, when, reminderBroadcastIntent);
+        }
+        public void cancelAlarm(String id){
+            AlarmManager alarmToCancel = (AlarmManager)context.getSystemService(Context.ALARM_SERVICE);
+            Intent intent = new Intent(context, AlarmReceiver.class);
+            PendingIntent pendingIntentToCancel = PendingIntent.getBroadcast(context, Integer.parseInt(id), intent, PendingIntent.FLAG_UPDATE_CURRENT);
+            alarmToCancel.cancel(pendingIntentToCancel);
+        }
+    }
+}
+```
+
 e) ViewDisplay jest adapterem, który zajmuje się wyświetlaniem zapisanych ustawień użytkownika, lub (jeżeli nie ma zapisanych) wyświetla domyślne ustawienia.
- 
- 
+```java
+ public class ViewDisplay extends ArrayAdapter<Contact>{
+
+
+	public ViewDisplay(Context context, ArrayList<Contact> contacts) {
+		super(context, 0, contacts);
+	}
+
+	@Override
+	public View getView(int position, View convertView, ViewGroup parent) {
+		// Get the data item
+		Contact contact = getItem(position);
+		// Check if an existing view is being reused, otherwise inflate the view
+		View view = convertView;
+		if (view == null) {
+			LayoutInflater inflater = LayoutInflater.from(getContext());
+			view = inflater.inflate(R.layout.single_contact, parent, false);
+		}
+		// Populate the data into the template view using the data object
+		TextView name = (TextView) view.findViewById(R.id.tvName);
+		TextView phone = (TextView) view.findViewById(R.id.tvPhone);
+		SeekBar contactSeekBar = (SeekBar) view.findViewById(R.id.contactSeekBar);
+		TextView seekBarProgress = (TextView) view.findViewById(R.id.seekBarProgress);
+		CheckBox checkBox = (CheckBox) view.findViewById(R.id.remindCheckBox);
+
+		contact.setSeekBar(contactSeekBar);
+		contact.setProgressValue(seekBarProgress);
+		contact.setCheckBox(checkBox);
+		contact.initializeContact();
+		contactSeekBar.setProgress(contact.getProgression());
+		seekBarProgress.setText(""+contact.getProgression());
+		checkBox.setChecked(contact.isChecked());
+
+
+
+		name.setText(contact.name);
+		phone.setText("");
+
+		if (contact.numbers.size() > 0 && contact.numbers.get(0) != null) {
+			phone.setText(contact.numbers.get(0).number);
+		}
+
+		return view;
+	}
+}
+```
+
 g) Funkcja tworząca mapę połączeń przypisanych do numeru na podstawie historii połączeń telefonu.
+```java
+ public void getCallDetails(Context context) {
+        Log.i("LogDetails12", "getCallDetails");
+
+        final String[] numberProjection = new String[]{
+                CallLog.Calls.NUMBER,
+                CallLog.Calls.DATE,
+                CallLog.Calls.DURATION,
+                CallLog.Calls.CACHED_NAME,
+        };
+
+        Cursor callDetailsCursor = new CursorLoader(context,
+                CallLog.Calls.CONTENT_URI,
+                numberProjection,
+                null,
+                null,
+                null).loadInBackground();
+
+        int number = callDetailsCursor.getColumnIndex(CallLog.Calls.NUMBER);
+        int date = callDetailsCursor.getColumnIndex(CallLog.Calls.DATE);
+        int duration = callDetailsCursor.getColumnIndex(CallLog.Calls.DURATION);
+        int name = callDetailsCursor.getColumnIndex(CallLog.Calls.CACHED_NAME);
 
 
- 
+        while (callDetailsCursor.moveToNext()) {
+            String phNumber = callDetailsCursor.getString(number);
+            String callDate = callDetailsCursor.getString(date);
+            String contactName = callDetailsCursor.getString(name);
+            Date callDateTime = new Date(Long.valueOf(callDate));
+            String callDuration = callDetailsCursor.getString(duration);
+
+
+            if(callsMap.get(phNumber) != null)
+            {
+                ArrayList<Call> calls = callsMap.get(phNumber);
+                calls.add(new Call(callDateTime, callDuration, contactName));
+                callsMap.put(phNumber, calls);
+
+            } else {
+                ArrayList<Call> calls = new ArrayList<>();
+                calls.add(new Call(callDateTime, callDuration, contactName));
+                callsMap.put(phNumber, calls);
+            }
+
+        }
+callDetailsCursor.close();
+```
+
 3.2 Użyte technologie
 
 Aplikacja została napisana w języku programowania Java w środowisku Android Studio w wersji 2.1.. Aplikacja zaprogramowana została z myślą o użytkownikach systemu Android 5.0. bądź późniejszym. Program kompilowany był dla wersji Android API 21., a buildowany dokładnie dla wersji 21.1.2. poprzez gradle 2.1. Odbiór zewnętrznych wiadomości został zrealizowany przez GCM (ang. Google Cloud Messages) przy pomocy pushbots w wersji 2.0.13.. Front-end występuje w postaci plików xml (ang. Extensible Markup Language) w wersji 1.0. z kodowaniem UTF-8.
