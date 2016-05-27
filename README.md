@@ -328,11 +328,11 @@ Strona główna po uruchomieniu aplikacji RemembrCall. Wyświetlają się tutaj 
 w osobnej ramce mamy opcje wyboru częstotliwości połączeń oraz pole do zaznaczenia aby ustawienia zostały wzięte pod uwagę. Na dole po prawej stronie widnieje przycisk „Zapisz”, którego wciśnięcie jest konieczne do działania aplikacji. Na samej górze znajduje się krótki opis korzystania z niej.
 ![Alt text](s1.jpg)
 Przykładowy widok notyfikacji przypominających o wykonaniu telefonu do konkretnej osoby, wysłanych po wybranym przez użytkownika czasie. Adnotacja przybiera kształt spacerującej o lasce staruszki, co nawiązuje tematycznie do ikony całej aplikacji.
-![Alt text](https://raw.github.com/twilk/remembrCall/blob/master/s2.jpg)
+![Alt text](s2.jpg)
 Po rozwinięciu czarnego paska u góry pokazują się szczegóły poszczególnych notyfikacji takie jak nazwa kontaktu oraz ilość dni, które minęły od ostatniego połączenia z nim.
-![Alt text](https://raw.github.com/twilk/remembrCall/blob/master/s3.jpg)
+![Alt text](s3.jpg)
 Po kliknięciu konkretnej adnotacji aplikacja przekierowuje użytkownika bezpośrednio do Książki telefonicznej z już wybranym numerem kontaktu, odnośnie którego notyfikację wybraliśmy. Jest to o tyle komfortowe, że dopóki nie klikniemy adnotacji, będzie nam ona wciąż przypominała o tym, żeby zadzwonić, a gdy zostanie już wybrana poniekąd zmusi użytkownika do wykonania zaplanowanego telefonu.
-![Alt text](https://raw.github.com/twilk/remembrCall/blob/master/s4.jpg)
+![Alt text](s4.jpg)
 
 3. Implementacja
 
