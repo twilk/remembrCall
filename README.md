@@ -323,10 +323,18 @@ Aplikacja została napisana w języku programowania Java w środowisku Android S
 Projekt interfejsu użytkownika.
 
 
+<div style="width:800px;" >
 
+<div style="width:300px; float:left;">
+<img src="s1.jpg" width="50%" height="50%" />
+</div>
+
+<div style="width:300px; float:right;">
 Strona główna po uruchomieniu aplikacji RemembrCall. Wyświetlają się tutaj wszystkie kontakty pobrane z telefonu. Do każdego kontaktu widzianego
 w osobnej ramce mamy opcje wyboru częstotliwości połączeń oraz pole do zaznaczenia aby ustawienia zostały wzięte pod uwagę. Na dole po prawej stronie widnieje przycisk „Zapisz”, którego wciśnięcie jest konieczne do działania aplikacji. Na samej górze znajduje się krótki opis korzystania z niej.
-<img src="s1.jpg" width="50%" height="50%" />
+</div>
+
+</div>
 Przykładowy widok notyfikacji przypominających o wykonaniu telefonu do konkretnej osoby, wysłanych po wybranym przez użytkownika czasie. Adnotacja przybiera kształt spacerującej o lasce staruszki, co nawiązuje tematycznie do ikony całej aplikacji.
 ![Alt text](s2.jpg)
 Po rozwinięciu czarnego paska u góry pokazują się szczegóły poszczególnych notyfikacji takie jak nazwa kontaktu oraz ilość dni, które minęły od ostatniego połączenia z nim.
