@@ -49,13 +49,16 @@ Spis treści
 5. Bibliografia
 
 ##### Spis treści  
+[Streszczenie](#Streszczenie)
 [Wstep](#Wstep)  
 [Opis problemu](#Opis)
 [Analiza dostępnych rozwiązań](#Analiza)
-
 [Wkład własny](#Wklad)
 
-
+<a name="Streszczenie"/>
+## Streszczenie
+Jako pracę licencjacką wykonaliśmy aplikację dla telefonów oraz tabletów korzystających z systemu Android. Jest to aplikacja przypominająca użytkownikowi o wykonaniu telefonu do konkretnego kontaktu na podstawie wcześniej ustalonej przez niego częstotliwości połączeń. Przy pierwszym jak i każdym następnym odpaleniu program pobiera wszystkie kontakty po czym wyświetla je wraz z opcjami dla użytkownika. Przy każdym kontakcie znajduje się pasek, który odpowiada częstotliwości połączeń w dniach 
+(od 0 do 60). Na potrzeby testowania oraz pokazania działania zmieniliśmy dni na minuty. Oprócz paska mamy okienko (checkBox) do zaznaczenia, że dokonane przed chwilą ustawienia mają być brane pod uwagę przez program, co jest zabezpieczeniem w razie przypadkowego ustawienia przypomnień z danym kontaktem.
 
 <a name="Wstep"/>
 ## Wstep
