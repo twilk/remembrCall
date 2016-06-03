@@ -40,7 +40,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceSmall"
-        android:text="Po ustawieniu preferowanej czestotliwosci polaczen potwierdz ustawienia klikajac kwadracik po prawej stronie. Nastepnie zapisz wszystko za pomoca przycisku na dole. Nara."
+        android:text="Po ustawieniu preferowanej czestotliwosci polaczen potwierdz ustawienia klikajac kwadracik po prawej stronie. Nastepnie zapisz wszystko za pomoca przycisku na dole."
         android:id="@+id/textView2"
         android:layout_alignParentTop="true"
         android:layout_alignParentLeft="true"
