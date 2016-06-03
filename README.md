@@ -29,26 +29,23 @@ Spis treści
 	[Streszczenie](#Streszczenie)
 	[Wstep](#Wstep)  
 
-	1. Opis problemu
-		1.1 [Porównanie dostępnych rozwiązań](#Porownanie)
-		1.2 [Możliwości zastosowania praktycznego](#Mozliwosci)
+1. Opis problemu
+  1.1 [Porównanie dostępnych rozwiązań](#Porownanie)
+  1.2 [Możliwości zastosowania praktycznego](#Mozliwosci)
+2. Projekt i analiza
+  2.1 Aktorzy i Przypadki użycia
+  2.2 [Wymagania funkcjonalne i niefunkcjonalne](#Wymagania)
+  2.3 Diagram klas
+  2.4 Diagram modelu danych
+  2.5 Projekt interfejsu użytkownika
+  2.6 Funkcjonalności - fragmenty kodu aplikacji
+3. Implementacja
+  3.1 Architektura rozwiązania
+  3.2 Użyte technologie
+  3.3 [Testowanie aplikacji](#Testowanie)
+4. [Wkład własny](#Wklad)
 
-	2. Projekt i analiza
-		2.1 Aktorzy i Przypadki użycia
-		2.2 [Wymagania funkcjonalne i niefunkcjonalne](#Wymagania)
-		2.3 Diagram klas
-		2.4 Diagram modelu danych
-		2.5 Projekt interfejsu użytkownika
-		2.6 Funkcjonalności - fragmenty kodu aplikacji
-
-	3. Implementacja
-		3.1 Architektura rozwiązania
-		3.2 Użyte technologie
-		3.3 [Testowanie aplikacji](#Testowanie)
-
-	4. [Wkład własny](#Wklad)
-
-5. Bibliografia
+5. [Bibliografia](#Biblio
 
 ##### Spis treści  
 
