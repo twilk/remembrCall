@@ -26,14 +26,16 @@ SŁOWA KLUCZOWE:
 „aplikacja” „Android” ”rodzina” „przypomnienia” „prostota” „adnotacje” „notyfikacje” „kontakt” „organizacja” „oszczędność czasu” „zadzwonić”  „telefon” „systematyczność” „regularny” „połączenie”
 
 Spis treści
+	[Streszczenie](#Streszczenie)
+	[Wstep](#Wstep)  
 
 	1. Opis problemu
-		1.1 Porównanie dostępnych rozwiązań
-		1.2 Możliwości zastosowania praktycznego
+		1.1 [Porównanie dostępnych rozwiązań](#Porownanie)
+		1.2 [Możliwości zastosowania praktycznego](#Mozliwosci)
 
 	2. Projekt i analiza
 		2.1 Aktorzy i Przypadki użycia
-		2.2 Wymagania funkcjonalne i niefunkcjonalne
+		2.2 [Wymagania funkcjonalne i niefunkcjonalne](#Wymagania)
 		2.3 Diagram klas
 		2.4 Diagram modelu danych
 		2.5 Projekt interfejsu użytkownika
@@ -42,18 +44,16 @@ Spis treści
 	3. Implementacja
 		3.1 Architektura rozwiązania
 		3.2 Użyte technologie
-		3.3 Testowanie aplikacji
+		3.3 [Testowanie aplikacji](#Testowanie)
 
-	4. Wkład własny
+	4. [Wkład własny](#Wklad)
 
 5. Bibliografia
 
 ##### Spis treści  
-[Streszczenie](#Streszczenie)
-[Wstep](#Wstep)  
+
 [Opis problemu](#Opis)
-[Analiza dostępnych rozwiązań](#Analiza)
-[Wkład własny](#Wklad)
+
 
 <a name="Streszczenie"/>
 ## Streszczenie
@@ -65,13 +65,13 @@ Jako pracę licencjacką wykonaliśmy aplikację dla telefonów oraz tabletów k
 Przedmiotem naszej pracy jest aplikacja napisana dla systemu Android na telefony oraz tablety. Jest ona przeznaczona dla tych, którzy cenią sobie pielęgnowanie kontaktów z rodziną i przyjaciółmi, a przy tym są zbyt zajęci bądź zapominalscy, by pamiętać o choćby cotygodniowym telefonie do danej osoby. Aplikacja służy do przypominania użytkownikowi o wykonaniu telefonu do konkretnej osoby na podstawie zaznaczonych przez użytkownika preferencji, co do częstotliwości połączeń z danym kontaktem.
 	
 	
-<a name="Analiza"/>
-## Analiza dostępnych rozwiązań
+<a name="Porownanie"/>
+## Porównanie dostępnych rozwiązań
 Analiza dostępnych rozwiązań rozpoczęła się na długo przed podjęciem decyzji o pisaniu naszej aplikacji, jako że szukaliśmy czegoś podobnego do własnego użytku. Istnieją oczywiście aplikacje dla systemu Android, które choć po części miały spełniać podobną rolę, ale posiadały one zazwyczaj zbyt wiele skomplikowanych ustawień oraz niepotrzebnych funkcji, do których po krótkim czasie traciło się cierpliwość. Celem naszego rozwiązania jest prostota oraz brak konieczności częstego powracania do ustawień, co z kolei prowadzi do kolejnych atutów – oszczędności czasu oraz użyteczność osobom starszym, niezaznajomionym dobrze z nowymi technologiami. Ponadto aplikacja wszystkim swoim użytkownikom wysyła adnotacje z przypomnieniem o np. Dniu Dziadka albo Dniu Matki, co jest ponadprogramową okazją do wykonania telefonu.
 	
 
-<a name="Wstep"/>
-## Wstep
+<a name="Mozliwosci"/>
+## Możliwości zastosowania praktycznego
 Aplikacja ma na celu wspomóc osoby, które z różnych powodów nie pamiętają o wykonaniu telefonu do bliskich osób, choć ważne jest dla nich utrzymywanie dobrych stosunków z nimi oraz regularny kontakt. Naszym celem było by prosty w obsłudze interfejs oraz jednorazowa konieczność tworzenia ustawień sprawiły by aplikacja mogła cieszyć się popularnością wśród różnych grup wiekowych. Nasze rozwiązanie może posłużyć zarówno młodzieży, która przez nawał obowiązków nie zawsze pamięta o tym, żeby zadzwonić do ukochanej babci, jak i również osobom starszym w kontaktach z rodziną czy w przypadku regularnych wizyt u lekarza wymagających rejestracji. Ponadto aplikacja może zostać wykorzystana przez  specjalistów różnych dziedzin jako wsparcie w kontakcie z klientami w regularnych odstępach czasu (np. comiesięczne przypomnienie o wizycie ortodontycznej). 
 2. Projekt i analiza
 
@@ -81,7 +81,9 @@ W tym rozdziale pragniemy przedstawić wybrane diagramy związane ze sposobem dz
 
 
 
-2.2. Wymagania funkcjonalne i niefunkcjonalne
+
+<a name="Wymagania"/>
+## 2.2. Wymagania funkcjonalne i niefunkcjonalne
 
 Wymagania funkcjonalne:
 Aplikacja pobiera pełną listę kontaktów z telefonu użytkownika i wyświetla ją wraz z opcjami ustawień. Właściciel ustawia pożądaną częstotliwość przypomnień o połączeniu z danym kontaktem za pomocą seekBar, a obok prezentują się rezultaty wykonanych czynności w postaci ilości dni. Następnie wstępnie zapisuje te ustawienia za pomocą checkBox, ponieważ tylko zaznaczone w ten sposób kontakty zostaną uwzględnione przez aplikację. Jest to zabezpieczenie na wypadek, gdyby użytkownik przypadkiem ustalił priorytet w kontakcie, na temat którego powiadomień nie chce otrzymywać. Na sam koniec wystarczy potwierdzić wszystkie ustawienia za pomocą guzika na dole, co da aplikacji ostateczną wersję, którą ma wziąć pod uwagę. W każdym momencie użytkownik może powrócić do owych ustawień i je zmienić.
@@ -361,8 +363,10 @@ Po kliknięciu konkretnej adnotacji aplikacja przekierowuje użytkownika bezpoś
 
 3. Implementacja
 
-3.3 Testowanie aplikacji
+<a name="Testowanie"/>
+## 3.3 Testowanie aplikacji
 	Testowanie aplikacji przeprowadzono manualnie wykonując wybrane operacje w aplikacji.
+	
 <a name="Wklad"/>
 ## Wkład własny
 
