@@ -1,6 +1,6 @@
 Tkacz Jessica | Tomasz Wilk 
- --- | --- 
- [MAIL](jessica.tkacz@wp.pl) | [MAIL](Wilczyy@gmail.com)
+ --------------- | ----------------
+ jessica.tkacz@wp.pl | Wilczyy@gmail.com
 
 <p align="center">UNIWERSYTET GDAŃSKI</p>
 
