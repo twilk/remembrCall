@@ -1,4 +1,8 @@
-[Tomasz Wilk mail](Wilczyy@gmail.com)
+<p align="center">
+ Tkacz Jessica | Tomasz Wilk 
+ --- | --- 
+ [MAIL](jessica.tkacz@wp.pl) | [MAIL](Wilczyy@gmail.com)
+</p>
 
 <p align="center">UNIWERSYTET GDAŃSKI</p>
 
