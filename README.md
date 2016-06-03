@@ -25,31 +25,28 @@ Tkacz Jessica | Tomasz Wilk
 SŁOWA KLUCZOWE:
 „aplikacja” „Android” ”rodzina” „przypomnienia” „prostota” „adnotacje” „notyfikacje” „kontakt” „organizacja” „oszczędność czasu” „zadzwonić”  „telefon” „systematyczność” „regularny” „połączenie”
 
-Spis treści
-	[Streszczenie](#Streszczenie)
-	[Wstep](#Wstep)  
-
-1. Opis problemu
-  1.1 [Porównanie dostępnych rozwiązań](#Porownanie)
-  1.2 [Możliwości zastosowania praktycznego](#Mozliwosci)
-2. Projekt i analiza
-  2.1 Aktorzy i Przypadki użycia
-  2.2 [Wymagania funkcjonalne i niefunkcjonalne](#Wymagania)
-  2.3 Diagram klas
-  2.4 Diagram modelu danych
-  2.5 Projekt interfejsu użytkownika
-  2.6 Funkcjonalności - fragmenty kodu aplikacji
-3. Implementacja
-  3.1 Architektura rozwiązania
-  3.2 Użyte technologie
-  3.3 [Testowanie aplikacji](#Testowanie)
-4. [Wkład własny](#Wklad)
-
-5. [Bibliografia](#Biblio
-
 ##### Spis treści  
-
-[Opis problemu](#Opis)
+<br/>[Streszczenie](#Streszczenie)
+<br/>[Wstep](#Wstep)  
+<br/>1. Opis problemu
+<br/>  1.1 [Porównanie dostępnych rozwiązań](#Porownanie)
+<br/>  1.2 [Możliwości zastosowania praktycznego](#Mozliwosci)
+<br/>2. Projekt i analiza
+<br/>  2.1 Aktorzy i Przypadki użycia
+<br/>  2.2 [Wymagania funkcjonalne i niefunkcjonalne](#Wymagania)
+<br/>  2.3 Diagram klas
+<br/>  2.4 Diagram modelu danych
+<br/>  2.5 Projekt interfejsu użytkownika
+<br/>  2.6 Funkcjonalności - fragmenty kodu aplikacji
+<br/>3. Implementacja
+<br/>  3.1 Architektura rozwiązania
+<br/>  3.2 Użyte technologie
+<br/>  3.3 [Testowanie aplikacji](#Testowanie)
+<br/>4. [Wkład własny](#Wklad)
+<br/>
+<br/>5. [Bibliografia](#Bibliografia)
+<br/>
+<br/>[Opis problemu](#Opis)
 
 
 <a name="Streszczenie"/>
