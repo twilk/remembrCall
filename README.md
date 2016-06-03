@@ -53,7 +53,7 @@ Spis treści
 [Opis problemu](#Opis)
 [Analiza dostępnych rozwiązań](#Analiza)
 
-[Wkład własny](#wklad)
+[Wkład własny](#Wklad)
 
 
 
