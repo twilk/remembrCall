@@ -51,8 +51,14 @@ SŁOWA KLUCZOWE:
 
 <a name="Streszczenie"/>
 ## Streszczenie
-Jako pracę licencjacką wykonaliśmy aplikację dla telefonów oraz tabletów korzystających z systemu Android. Jest to aplikacja przypominająca użytkownikowi o wykonaniu telefonu do konkretnego kontaktu na podstawie wcześniej ustalonej przez niego częstotliwości połączeń. Przy pierwszym jak i każdym następnym odpaleniu program pobiera wszystkie kontakty po czym wyświetla je wraz z opcjami dla użytkownika. Przy każdym kontakcie znajduje się pasek, który odpowiada częstotliwości połączeń w dniach 
-(od 0 do 60). Na potrzeby testowania oraz pokazania działania zmieniliśmy dni na minuty. Oprócz paska mamy okienko (checkBox) do zaznaczenia, że dokonane przed chwilą ustawienia mają być brane pod uwagę przez program, co jest zabezpieczeniem w razie przypadkowego ustawienia przypomnień z danym kontaktem.
+<p>Jako pracę licencjacką stworzyliśmy aplikację dla systemu Android o nazwie RemembrCall, której zadaniem jest przypominać użytkownikowi o wykonaniu telefonu do wybranego kontaktu. Naszym podstawowym celem jest wspomóc zapominalską lub zapracowaną osobę w relacjach z rodziną. Pomysł powstał na podstawie własnych doświadczeń oraz w wyniku braku satysfakcjonującego nas rozwiązania na rynku.
+</p>
+<p>Nazwa aplikacji dość bezpośrednio wskazuje na jej funkcjonalność, lecz kryje się w niej również nawiązanie do dobrze większości ludzi znanej sagi o Harrym Potterze. Kolega Harry,ego, Neville, był bardzo zapominalskim chłopcem, dlatego babcia przysłała mu Przypominajkę (ang. Remembrall), która zmieniała kolor za każdym razem, kiedy Neville o czymś zapomniał. Nasza aplikacja RemembrCall jest więc kombinacją angielskiej nazwy Przypominajki oraz Call (dzwonić), co niebanalnie wskazuje sposób na jej zastosowanie.
+</p>
+<p>Ze względu na fakt, iż na rynku smartfonów królują w większości te zasilane systemem Android, co bezpośrednio przekłada się na liczbę odbiorców, zdecydowaliśmy się stworzyć naszą aplikację właśnie dla tego systemu.  Dokonaliśmy tego z wykorzystaniem środowiska Android Studio, posługując się językiem programowania Java. Wersja załączona do pracy operuje na systemie minutowym i w takiej postaci była również testowana, natomiast w oficjalnej wersji zamiast minut wprowadziliśmy dni.
+</p>
+<p>W czasach, gdzie praktycznie każdy ma do dyspozycji smartfona bardzo zależało nam, by nasza aplikacja była prosta w obsłudze, żeby mogły z niej korzystać osoby w różnym wieku. Z tego powodu stworzony interfejs jest przejrzysty i nieskomplikowany, tak by nie nastręczał problemów osobie mało obeznanej z coraz to nowszymi technologiami. Naszym zamysłem było, by od strony użytkownika aplikacja była mało wymagająca, dlatego właściwie jedyną czynnością, jaką musi on wykonać to wybrać częstotliwość połączeń z wybranym kontaktem. Doszliśmy również do wniosku, że nie chcemy tworzyć kolejnej aplikacji z niepotrzebnymi funkcjami i częstymi aktualizacjami, które wzbudzają jedynie irytację, gdyż takich jest na rynku do wyboru aż nadmiar. Nasza RemembrCall spełnia swe zadanie i działa tak jak powinna, a przy tym nie wymaga wiele czasu ani specjalnych umiejętności.
+</p>
 
 <a name="Wstep"/>
 ## Wstep
