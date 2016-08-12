@@ -16,9 +16,9 @@ Tkacz Jessica | Tomasz Wilk
 
 <p align="center">Aplikacja dla systemu Android usprawniająca kontakty z bliskimi.</p>
 
-<p align="center">Praca licencjacka napisana</p>
+<p align="right">Praca licencjacka napisana</p>
 
-<p align="center">pod kierunkiem dr Włodzimierza Bzyla</p>
+<p align="right">pod kierunkiem dr Włodzimierza Bzyla</p>
 
 <p align="center">Gdańsk 2016</p>
 
