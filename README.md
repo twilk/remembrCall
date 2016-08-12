@@ -360,8 +360,6 @@ Po kliknięciu konkretnej adnotacji aplikacja przekierowuje użytkownika bezpoś
 <img src="s4.jpg" width="40%" height="40%" />
 ======
 
-3. Implementacja
-
 <a name="Testowanie"/>
 ## 3.3 Testowanie aplikacji
 	Testowanie aplikacji przeprowadzono manualnie wykonując wybrane operacje w aplikacji.
@@ -384,3 +382,7 @@ Wilk Tomasz:
 * mechanizm opóźniający, 
 * zarządzanie broadcasterem, 
 * testowanie aplikacji
+
+źródła:
+*
+*
