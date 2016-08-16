@@ -78,15 +78,15 @@ Powodem, dla którego podjęliśmy ten temat jest fakt, iż sami znajdujemy się
 <p>
 Istnieją oczywiście aplikacje dla systemu Android, które choć po części miały spełniać podobną rolę, ale posiadały one zazwyczaj zbyt wiele skomplikowanych ustawień oraz niepotrzebnych funkcji, do których po krótkim czasie traciło się cierpliwość. Ponadto aplikacja wszystkim swoim użytkownikom wysyła adnotacje z przypomnieniem o np. Dniu Dziadka albo Dniu Matki, co jest ponadprogramową okazją do wykonania telefonu.
 </p>	
- 3.  Analiza problemu
+##3.  Analiza problemu
 
 <a name="Porownanie"/>
-##	3.1. Porównanie dostępnych rozwiązań
+###	3.1. Porównanie dostępnych rozwiązań
 Analiza dostępnych rozwiązań rozpoczęła się na długo przed podjęciem decyzji o pisaniu naszej aplikacji, jako że szukaliśmy czegoś podobnego do własnego użytku.
 	
 
 <a name="Mozliwosci"/>
-## 	3.2. Możliwości zastosowania praktycznego
+### 	3.2. Możliwości zastosowania praktycznego
 Aplikacja ma na celu wspomóc osoby, które z różnych powodów nie pamiętają o wykonaniu telefonu do bliskich osób, choć ważne jest dla nich utrzymywanie dobrych stosunków z nimi oraz regularny kontakt. Naszym celem było by prosty w obsłudze interfejs oraz jednorazowa konieczność tworzenia ustawień sprawiły by aplikacja mogła cieszyć się popularnością wśród różnych grup wiekowych. Nasze rozwiązanie może posłużyć zarówno młodzieży, która przez nawał obowiązków nie zawsze pamięta o tym, żeby zadzwonić do ukochanej babci, jak i również osobom starszym w kontaktach z rodziną czy w przypadku regularnych wizyt u lekarza wymagających rejestracji. Ponadto aplikacja może zostać wykorzystana przez  specjalistów różnych dziedzin jako wsparcie w kontakcie z klientami w regularnych odstępach czasu (np. comiesięczne przypomnienie o wizycie ortodontycznej). 
 2. Projekt i analiza
 
@@ -100,19 +100,19 @@ W TYM ROZDZIALE PRAGNIEMY PRZEDSTAWIĆ WYBRANE DIAGRAMY ZWIĄZANE ZE SPOSOBEM DZ
 <a name="Wymagania"/>
 ## 4.  Wymagania funkcjonalne i niefunkcjonalne
 
-##	4.1. Wymagania funkcjonalne:
+###	4.1. Wymagania funkcjonalne:
 Aplikacja pobiera pełną listę kontaktów z telefonu użytkownika i wyświetla ją wraz z opcjami ustawień. Właściciel ustawia pożądaną częstotliwość przypomnień o połączeniu z danym kontaktem za pomocą seekBar, a obok prezentują się rezultaty wykonanych czynności w postaci ilości dni. Następnie wstępnie zapisuje te ustawienia za pomocą checkBox, ponieważ tylko zaznaczone w ten sposób kontakty zostaną uwzględnione przez aplikację. Jest to zabezpieczenie na wypadek, gdyby użytkownik przypadkiem ustalił priorytet w kontakcie, na temat którego powiadomień nie chce otrzymywać. Na sam koniec wystarczy potwierdzić wszystkie ustawienia za pomocą guzika na dole, co da aplikacji ostateczną wersję, którą ma wziąć pod uwagę. W każdym momencie użytkownik może powrócić do owych ustawień i je zmienić.
 
 
 
-##	4.2. Wymagania niefunkcjonalne:
+###	4.2. Wymagania niefunkcjonalne:
 Oczywistym ograniczeniem jest fakt, iż aplikacja jest zorientowana na system Android i na żadnym innym nie będzie działała. Możliwe jest używanie jej zarówno na smartfonach, jak i tabletach posiadających wersję systemu Android 5.0. i wzwyż.
 Można również uruchomić aplikację w środowisku Android Studio, w którym była pisana i oglądać efekty próbnych działań na wybranym emulatorze posiadającym odpowiednią wersję systemu. 
 
 
 <a name="projekt"/>
 ## 5. Projekt systemu
-## 	5.4. Projekt interfejsu użytkownika
+### 	5.4. Projekt interfejsu użytkownika
 
 Strona główna po uruchomieniu aplikacji RemembrCall. Wyświetlają się tutaj wszystkie kontakty pobrane z telefonu. Do każdego kontaktu widzianego
 w osobnej ramce mamy opcje wyboru częstotliwości połączeń oraz pole do zaznaczenia aby ustawienia zostały wzięte pod uwagę. Na dole po prawej stronie widnieje przycisk „Zapisz”, którego wciśnięcie jest konieczne do działania aplikacji. Na samej górze znajduje się krótki opis korzystania z niej.
@@ -377,13 +377,16 @@ f) Funkcja tworząca mapę połączeń przypisanych do numeru na podstawie histo
         }
 callDetailsCursor.close();
 ```
+<a name="Implementacja"/>
+## Implementacja
 
-6.2 Użyte technologie
+### 6.1. Coś tu
+### 6.2 Użyte technologie
 
 Aplikacja została napisana w języku programowania Java w środowisku Android Studio w wersji 2.1.. Aplikacja zaprogramowana została z myślą o użytkownikach systemu Android 5.0. bądź późniejszym. Program kompilowany był dla wersji Android API 21., a buildowany dokładnie dla wersji 21.1.2. poprzez gradle 2.1. Odbiór zewnętrznych wiadomości został zrealizowany przez GCM (ang. Google Cloud Messages) przy pomocy pushbots w wersji 2.0.13.. Front-end występuje w postaci plików xml (ang. Extensible Markup Language) w wersji 1.0. z kodowaniem UTF-8.
 
 <a name="Testowanie"/>
-## 6.3 Testowanie aplikacji
+### 6.3 Testowanie aplikacji
 	Testowanie aplikacji przeprowadzono manualnie wykonując wybrane operacje w aplikacji.
 	
 <a name="Wklad"/>
