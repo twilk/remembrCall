@@ -25,32 +25,30 @@ Tkacz Jessica | Tomasz Wilk
 SŁOWA KLUCZOWE:
 „aplikacja” „Android” ”rodzina” „przypomnienia” „prostota” „adnotacje” „notyfikacje” „kontakt” „organizacja” „oszczędność czasu” „zadzwonić”  „telefon” „systematyczność” „połączenie”
 
-##### Spis treści  
+### Spis treści  
 <br/>1. [Streszczenie](#Streszczenie)
 <br/>2. [Wstep](#Wstep)  
-<br/>3. Analiza problemu(#Opis)
-<br/>  3.1. [Porównanie dostępnych rozwiązań](#Porownanie)
-<br/>  3.2. [Możliwości zastosowania praktycznego](#Mozliwosci)
+<br/>3. [Analiza problemu](#Opis)
+<br/> 	3.1. [Porównanie dostępnych rozwiązań](#Porownanie)
+<br/> 	3.2. [Możliwości zastosowania praktycznego](#Mozliwosci)
 <br/>4. [Wymagania funkcjonalne i niefunkcjonalne](#Wymagania)
-<br/> 4.1. Wymagania funkcjonalne
-<br/> 4.2. Wymagania niefunkcjonalne
+<br/>	4.1. Wymagania funkcjonalne
+<br/>	4.2. Wymagania niefunkcjonalne
 <br/>5. [Projekt systemu](#projekt)
-<br/>  5.1. Aktorzy i przypadki użycia --> diagramy robić!!!!!!!
-<br/>  5.2. Diagram klas
-<br/>  5.3. Diagram modelu danych
-<br/>  5.4. Projekt interfejsu użytkownika --> zamaskować numery
-<br/>  5.5. Funkcjonalności - fragmenty kodu aplikacji --> okroić ten szajs
+<br/> 	5.1. Aktorzy i przypadki użycia --> diagramy robić!!!!!!!
+<br/> 	5.2. Diagram klas
+<br/> 	5.3. Diagram modelu danych
+<br/> 	5.4. Projekt interfejsu użytkownika --> zamaskować numery
+<br/> 	5.5. Funkcjonalności - fragmenty kodu aplikacji --> okroić ten szajs
 <br/>6. Implementacja
-<br/>  6.1. Architektura rozwiązania
-<br/>  6.2. Użyte technologie
-<br/>  6.3. [Testowanie aplikacji](#Testowanie)
+<br/> 	6.1. Architektura rozwiązania
+<br/> 	6.2. Użyte technologie
+<br/> 	6.3. [Testowanie aplikacji](#Testowanie)
 <br/>7. [Podział pracy nad projektem](#Wklad)
 <br/>	7.1. Jessica Tkacz
 <br/>	7.2. Tomasz Wilk
 <br/>8. [Podstumowanie](#podsumowanie)
-<br/>
 <br/>9. [Bibliografia](#Bibliografia)
-<br/>
 <br/>10. [Załączone źródła](#potoki)
 
 
@@ -80,7 +78,7 @@ Powodem, dla którego podjęliśmy ten temat jest fakt, iż sami znajdujemy się
 <p>
 Istnieją oczywiście aplikacje dla systemu Android, które choć po części miały spełniać podobną rolę, ale posiadały one zazwyczaj zbyt wiele skomplikowanych ustawień oraz niepotrzebnych funkcji, do których po krótkim czasie traciło się cierpliwość. Ponadto aplikacja wszystkim swoim użytkownikom wysyła adnotacje z przypomnieniem o np. Dniu Dziadka albo Dniu Matki, co jest ponadprogramową okazją do wykonania telefonu.
 </p>	
-## 3.  Analiza problemu
+ 3.  Analiza problemu
 
 <a name="Porownanie"/>
 ##	3.1. Porównanie dostępnych rozwiązań
