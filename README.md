@@ -23,34 +23,40 @@ Tkacz Jessica | Tomasz Wilk
 <p align="center">Gdańsk 2016</p>
 
 SŁOWA KLUCZOWE:
-„aplikacja” „Android” ”rodzina” „przypomnienia” „prostota” „adnotacje” „notyfikacje” „kontakt” „organizacja” „oszczędność czasu” „zadzwonić”  „telefon” „systematyczność” „regularny” „połączenie”
+„aplikacja” „Android” ”rodzina” „przypomnienia” „prostota” „adnotacje” „notyfikacje” „kontakt” „organizacja” „oszczędność czasu” „zadzwonić”  „telefon” „systematyczność” „połączenie”
 
 ##### Spis treści  
-<br/>[Streszczenie](#Streszczenie)
-<br/>[Wstep](#Wstep)  
-<br/>1. Opis problemu
-<br/>  1.1 [Porównanie dostępnych rozwiązań](#Porownanie)
-<br/>  1.2 [Możliwości zastosowania praktycznego](#Mozliwosci)
-<br/>2. Projekt i analiza
-<br/>  2.1 Aktorzy i Przypadki użycia
-<br/>  2.2 [Wymagania funkcjonalne i niefunkcjonalne](#Wymagania)
-<br/>  2.3 Diagram klas
-<br/>  2.4 Diagram modelu danych
-<br/>  2.5 Projekt interfejsu użytkownika
-<br/>  2.6 Funkcjonalności - fragmenty kodu aplikacji
-<br/>3. Implementacja
-<br/>  3.1 Architektura rozwiązania
-<br/>  3.2 Użyte technologie
-<br/>  3.3 [Testowanie aplikacji](#Testowanie)
-<br/>4. [Wkład własny](#Wklad)
+<br/>1. [Streszczenie](#Streszczenie)
+<br/>2. [Wstep](#Wstep)  
+<br/>3. Analiza problemu(#Opis)
+<br/>  3.1. [Porównanie dostępnych rozwiązań](#Porownanie)
+<br/>  3.2. [Możliwości zastosowania praktycznego](#Mozliwosci)
+<br/>4. [Wymagania funkcjonalne i niefunkcjonalne](#Wymagania)
+<br/> 4.1. Wymagania funkcjonalne
+<br/> 4.2. Wymagania niefunkcjonalne
+<br/>5. [Projekt systemu](#projekt)
+<br/>  5.1. Aktorzy i przypadki użycia --> diagramy robić!!!!!!!
+<br/>  5.2. Diagram klas
+<br/>  5.3. Diagram modelu danych
+<br/>  5.4. Projekt interfejsu użytkownika --> zamaskować numery
+<br/>  5.5. Funkcjonalności - fragmenty kodu aplikacji --> okroić ten szajs
+<br/>6. Implementacja
+<br/>  6.1. Architektura rozwiązania
+<br/>  6.2. Użyte technologie
+<br/>  6.3. [Testowanie aplikacji](#Testowanie)
+<br/>7. [Podział pracy nad projektem](#Wklad)
+<br/>	7.1. Jessica Tkacz
+<br/>	7.2. Tomasz Wilk
+<br/>8. [Podstumowanie](#podsumowanie)
 <br/>
-<br/>5. [Bibliografia](#Bibliografia)
+<br/>9. [Bibliografia](#Bibliografia)
 <br/>
-<br/>[Opis problemu](#Opis)
+<br/>10. [Załączone źródła](#potoki)
+
 
 
 <a name="Streszczenie"/>
-## Streszczenie
+## 1. Streszczenie
 <p>Jako pracę licencjacką stworzyliśmy aplikację dla systemu Android o nazwie RemembrCall, której zadaniem jest przypominać użytkownikowi o wykonaniu telefonu do wybranego kontaktu. Naszym podstawowym celem jest wspomóc zapominalską lub zapracowaną osobę w relacjach z rodziną. Pomysł powstał na podstawie własnych doświadczeń oraz w wyniku braku satysfakcjonującego nas rozwiązania na rynku.
 </p>
 <p>
@@ -64,7 +70,7 @@ W czasach, gdzie praktycznie każdy ma do dyspozycji smartfona bardzo zależało
 </p>
 
 <a name="Wstep"/>
-## Wstep
+## 2. Wstęp
 <p>
 Wartości rodzinne i ogólnie międzyludzkie są jednymi z najważniejszych dla każdego człowieka. W obecnych czasach mamy bardzo rozwiniętą sieć komunikacji, nie musimy pisać listów i czekać tygodniami na odpowiedź. Wystarczy sięgnąć po telefon bądź komunikator internetowy i możemy porozmawiać nawet twarzą w twarz z osoba będącą w dowolnym miejscu na świecie. Paradoksalnie urządzenia, które miały pomóc w tym kontakcie coraz częściej oferują inne zastosowania, pochłaniające czas i kierujące myśli na inne tory, także często okazuje się, że zapominamy o tym, co najważniejsze. Również z większą ilością obowiązków, pracą, zatracamy lub tłumimy tę potrzebę kontaktu z najbliższymi. Bardzo wielu młodych ludzi zapomina jak ważne są rozmowy czy spotkania dla starszego pokolenia. Tymczasem wystarczy raz na tydzień czy dwa zadzwonić do babci, by była szczęśliwa. Dzięki temu i ta młoda osoba, która być może na razie nie widzi takiej potrzeby, na przyszłość nie będzie żałowała zaniedbywania tej sfery życia. Inaczej w efekcie nadchodzi moment, kiedy człowieka nachodzi refleksja, że chciałby to zmienić,a czasem bywa za późno.
 </p>
@@ -74,17 +80,19 @@ Powodem, dla którego podjęliśmy ten temat jest fakt, iż sami znajdujemy się
 <p>
 Istnieją oczywiście aplikacje dla systemu Android, które choć po części miały spełniać podobną rolę, ale posiadały one zazwyczaj zbyt wiele skomplikowanych ustawień oraz niepotrzebnych funkcji, do których po krótkim czasie traciło się cierpliwość. Ponadto aplikacja wszystkim swoim użytkownikom wysyła adnotacje z przypomnieniem o np. Dniu Dziadka albo Dniu Matki, co jest ponadprogramową okazją do wykonania telefonu.
 </p>	
+## 3.  Analiza problemu
+
 <a name="Porownanie"/>
-## Porównanie dostępnych rozwiązań
+##	3.1. Porównanie dostępnych rozwiązań
 Analiza dostępnych rozwiązań rozpoczęła się na długo przed podjęciem decyzji o pisaniu naszej aplikacji, jako że szukaliśmy czegoś podobnego do własnego użytku.
 	
 
 <a name="Mozliwosci"/>
-## Możliwości zastosowania praktycznego
+## 	3.2. Możliwości zastosowania praktycznego
 Aplikacja ma na celu wspomóc osoby, które z różnych powodów nie pamiętają o wykonaniu telefonu do bliskich osób, choć ważne jest dla nich utrzymywanie dobrych stosunków z nimi oraz regularny kontakt. Naszym celem było by prosty w obsłudze interfejs oraz jednorazowa konieczność tworzenia ustawień sprawiły by aplikacja mogła cieszyć się popularnością wśród różnych grup wiekowych. Nasze rozwiązanie może posłużyć zarówno młodzieży, która przez nawał obowiązków nie zawsze pamięta o tym, żeby zadzwonić do ukochanej babci, jak i również osobom starszym w kontaktach z rodziną czy w przypadku regularnych wizyt u lekarza wymagających rejestracji. Ponadto aplikacja może zostać wykorzystana przez  specjalistów różnych dziedzin jako wsparcie w kontakcie z klientami w regularnych odstępach czasu (np. comiesięczne przypomnienie o wizycie ortodontycznej). 
 2. Projekt i analiza
 
-W tym rozdziale pragniemy przedstawić wybrane diagramy związane ze sposobem działania naszej aplikacji, jej strukturą oraz samym jej zaprojektowaniem.
+W TYM ROZDZIALE PRAGNIEMY PRZEDSTAWIĆ WYBRANE DIAGRAMY ZWIĄZANE ZE SPOSOBEM DZIAŁANIA NASZEJ APLIKACJI, JEJ STRUKTURĄ ORAZ SAMYM JEJ ZAPROJEKTOWANIEM. wtf? : D
     
 
 
@@ -92,19 +100,40 @@ W tym rozdziale pragniemy przedstawić wybrane diagramy związane ze sposobem dz
 
 
 <a name="Wymagania"/>
-## 2.2. Wymagania funkcjonalne i niefunkcjonalne
+## 4.  Wymagania funkcjonalne i niefunkcjonalne
 
-Wymagania funkcjonalne:
+##	4.1. Wymagania funkcjonalne:
 Aplikacja pobiera pełną listę kontaktów z telefonu użytkownika i wyświetla ją wraz z opcjami ustawień. Właściciel ustawia pożądaną częstotliwość przypomnień o połączeniu z danym kontaktem za pomocą seekBar, a obok prezentują się rezultaty wykonanych czynności w postaci ilości dni. Następnie wstępnie zapisuje te ustawienia za pomocą checkBox, ponieważ tylko zaznaczone w ten sposób kontakty zostaną uwzględnione przez aplikację. Jest to zabezpieczenie na wypadek, gdyby użytkownik przypadkiem ustalił priorytet w kontakcie, na temat którego powiadomień nie chce otrzymywać. Na sam koniec wystarczy potwierdzić wszystkie ustawienia za pomocą guzika na dole, co da aplikacji ostateczną wersję, którą ma wziąć pod uwagę. W każdym momencie użytkownik może powrócić do owych ustawień i je zmienić.
 
 
 
-Wymagania niefunkcjonalne:
+##	4.2. Wymagania niefunkcjonalne:
 Oczywistym ograniczeniem jest fakt, iż aplikacja jest zorientowana na system Android i na żadnym innym nie będzie działała. Możliwe jest używanie jej zarówno na smartfonach, jak i tabletach posiadających wersję systemu Android 5.0. i wzwyż.
 Można również uruchomić aplikację w środowisku Android Studio, w którym była pisana i oglądać efekty próbnych działań na wybranym emulatorze posiadającym odpowiednią wersję systemu. 
+
+
+<a name="projekt"/>
+## 5. Projekt systemu
+## 	5.4. Projekt interfejsu użytkownika
+
+Strona główna po uruchomieniu aplikacji RemembrCall. Wyświetlają się tutaj wszystkie kontakty pobrane z telefonu. Do każdego kontaktu widzianego
+w osobnej ramce mamy opcje wyboru częstotliwości połączeń oraz pole do zaznaczenia aby ustawienia zostały wzięte pod uwagę. Na dole po prawej stronie widnieje przycisk „Zapisz”, którego wciśnięcie jest konieczne do działania aplikacji. Na samej górze znajduje się krótki opis korzystania z niej.
+<img src="s1.jpg" width="40%" height="40%" />
+======
+Przykładowy widok notyfikacji przypominających o wykonaniu telefonu do konkretnej osoby, wysłanych po wybranym przez użytkownika czasie. Adnotacja przybiera kształt spacerującej o lasce staruszki, co nawiązuje tematycznie do ikony całej aplikacji.
+<img src="s2.jpg" width="40%" height="40%" />
+======
+Po rozwinięciu czarnego paska u góry pokazują się szczegóły poszczególnych notyfikacji takie jak nazwa kontaktu oraz ilość dni, które minęły od ostatniego połączenia z nim.
+<img src="s3.jpg" width="40%" height="40%" />
+======
+Po kliknięciu konkretnej adnotacji aplikacja przekierowuje użytkownika bezpośrednio do Książki telefonicznej z już wybranym numerem kontaktu, odnośnie którego notyfikację wybraliśmy. Jest to o tyle komfortowe, że dopóki nie klikniemy adnotacji, będzie nam ona wciąż przypominała o tym, żeby zadzwonić, a gdy zostanie już wybrana poniekąd zmusi użytkownika do wykonania zaplanowanego telefonu.
+<img src="s4.jpg" width="40%" height="40%" />
+======
+
+
  
 
-2.6 Funkcjonalności - fragmenty kodu aplikacji
+  11900rek Funkcjonalności - fragmenty kodu aplikacji
 
 a) Funkcja setContactCalls odpowiedzialna jest za dopasowanie połączeń do konkretnych kontaktów:
 ```java
@@ -302,7 +331,7 @@ e) ViewDisplay jest adapterem, który zajmuje się wyświetlaniem zapisanych ust
 }
 ```
 
-g) Funkcja tworząca mapę połączeń przypisanych do numeru na podstawie historii połączeń telefonu.
+f) Funkcja tworząca mapę połączeń przypisanych do numeru na podstawie historii połączeń telefonu.
 ```java
  public void getCallDetails(Context context) {
         Log.i("LogDetails12", "getCallDetails");
@@ -351,48 +380,38 @@ g) Funkcja tworząca mapę połączeń przypisanych do numeru na podstawie histo
 callDetailsCursor.close();
 ```
 
-3.2 Użyte technologie
+6.2 Użyte technologie
 
 Aplikacja została napisana w języku programowania Java w środowisku Android Studio w wersji 2.1.. Aplikacja zaprogramowana została z myślą o użytkownikach systemu Android 5.0. bądź późniejszym. Program kompilowany był dla wersji Android API 21., a buildowany dokładnie dla wersji 21.1.2. poprzez gradle 2.1. Odbiór zewnętrznych wiadomości został zrealizowany przez GCM (ang. Google Cloud Messages) przy pomocy pushbots w wersji 2.0.13.. Front-end występuje w postaci plików xml (ang. Extensible Markup Language) w wersji 1.0. z kodowaniem UTF-8.
-Projekt interfejsu użytkownika.
-
-Strona główna po uruchomieniu aplikacji RemembrCall. Wyświetlają się tutaj wszystkie kontakty pobrane z telefonu. Do każdego kontaktu widzianego
-w osobnej ramce mamy opcje wyboru częstotliwości połączeń oraz pole do zaznaczenia aby ustawienia zostały wzięte pod uwagę. Na dole po prawej stronie widnieje przycisk „Zapisz”, którego wciśnięcie jest konieczne do działania aplikacji. Na samej górze znajduje się krótki opis korzystania z niej.
-<img src="s1.jpg" width="40%" height="40%" />
-======
-Przykładowy widok notyfikacji przypominających o wykonaniu telefonu do konkretnej osoby, wysłanych po wybranym przez użytkownika czasie. Adnotacja przybiera kształt spacerującej o lasce staruszki, co nawiązuje tematycznie do ikony całej aplikacji.
-<img src="s2.jpg" width="40%" height="40%" />
-======
-Po rozwinięciu czarnego paska u góry pokazują się szczegóły poszczególnych notyfikacji takie jak nazwa kontaktu oraz ilość dni, które minęły od ostatniego połączenia z nim.
-<img src="s3.jpg" width="40%" height="40%" />
-======
-Po kliknięciu konkretnej adnotacji aplikacja przekierowuje użytkownika bezpośrednio do Książki telefonicznej z już wybranym numerem kontaktu, odnośnie którego notyfikację wybraliśmy. Jest to o tyle komfortowe, że dopóki nie klikniemy adnotacji, będzie nam ona wciąż przypominała o tym, żeby zadzwonić, a gdy zostanie już wybrana poniekąd zmusi użytkownika do wykonania zaplanowanego telefonu.
-<img src="s4.jpg" width="40%" height="40%" />
-======
 
 <a name="Testowanie"/>
-## 3.3 Testowanie aplikacji
+## 6.3 Testowanie aplikacji
 	Testowanie aplikacji przeprowadzono manualnie wykonując wybrane operacje w aplikacji.
 	
 <a name="Wklad"/>
-## Wkład własny
+##7. Podział pracy nad projektem
 
 Określenie indywidualnego wkładu w pracę każdego z członków zespołu:
-Tkacz Jessica: 
-* wczytywanie ustawień dla kontaktów,
-* strona wizualna aplikacji (front-end oraz widoki),
-* modele kontaktów,
-* pobieranie rejestru połączeń, 
-* dokumentacja
+##	7.1. Tkacz Jessica: 
+	* wczytywanie ustawień dla kontaktów,
+	* strona wizualna aplikacji (front-end oraz widoki),
+	* modele kontaktów,
+	* pobieranie rejestru połączeń, 
+	* dokumentacja
 
-Wilk Tomasz: 
-* zapisaniem ustawień dla kontaktów,
-* pobieranie kontaktów z urządzenia, 
-* zarządzaniem notyfikacjami, 
-* mechanizm opóźniający, 
-* zarządzanie broadcasterem, 
-* testowanie aplikacji
+##	7.2. Wilk Tomasz: 
+	* zapisaniem ustawień dla kontaktów,
+	* pobieranie kontaktów z urządzenia, 
+	* zarządzaniem notyfikacjami, 
+	* mechanizm opóźniający, 
+	* zarządzanie broadcasterem, 
+	* testowanie aplikacji
 
-źródła:
-*
-*
+<a name="podsumowanie"/>
+##8. Podsumowanie
+
+<a name="Bibliografia"/>
+##9. Bibliografia
+
+<a name="potoki"/>
+##10. Załączone źródła
