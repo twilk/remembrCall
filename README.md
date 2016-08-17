@@ -27,28 +27,37 @@ SŁOWA KLUCZOWE:
 
 ### Spis treści  
 <br/>1. [Streszczenie](#Streszczenie) 
-<br/>2. [Wstep](#Wstep) 
+<br/>
+<br/>2. [Wstep](#Wstep)
+<br/>
 <br/>3. [Analiza problemu](#Opis) 
 <br/>3.1. [Porównanie dostępnych rozwiązań](#Porownanie)
 <br/>3.2. [Możliwości zastosowania praktycznego](#Mozliwosci)
+<br/>
 <br/>4. [Wymagania funkcjonalne i niefunkcjonalne](#Wymagania)
 <br/>4.1. Wymagania funkcjonalne
 <br/>4.2. Wymagania niefunkcjonalne
+<br/>
 <br/>5. [Projekt systemu](#projekt)
 <br/>5.1. Aktorzy i przypadki użycia --> diagramy robić!!!!!!!
 <br/>5.2. Diagram klas
 <br/>5.3. Diagram modelu danych
 <br/>5.4. Projekt interfejsu użytkownika
-<br/>5.5. Funkcjonalności - fragmenty kodu aplikacji --> okroić ten szajs
+<br/>5.5. Funkcjonalności - fragmenty kodu aplikacji
+<br/>
 <br/>6. [Implementacja](#Implementacja)
 <br/>6.1. Architektura rozwiązania
 <br/>6.2. Użyte technologie
 <br/>6.3. [Testowanie aplikacji](#Testowanie)
+<br/>
 <br/>7. [Podział pracy nad projektem](#Wklad)
 <br/>7.1. Jessica Tkacz
 <br/>7.2. Tomasz Wilk
+<br/>
 <br/>8. [Podsumowanie](#podsumowanie)
+<br/>
 <br/>9. [Bibliografia](#Bibliografia)
+<br/>
 <br/>10. [Załączone źródła](#potoki)
 
 
@@ -122,7 +131,7 @@ Przykładowy widok notyfikacji przypominających o wykonaniu telefonu do konkret
 <img src="ss2.png" width="40%" height="40%" />
 ======
 Po rozwinięciu czarnego paska u góry pokazują się szczegóły poszczególnych notyfikacji takie jak nazwa kontaktu oraz ilość dni, które minęły od ostatniego połączenia z nim.
-<img src="ss3.jng" width="40%" height="40%" />
+<img src="ss3.png" width="40%" height="40%" />
 ======
 Po kliknięciu konkretnej adnotacji aplikacja przekierowuje użytkownika bezpośrednio do Książki telefonicznej z już wybranym numerem kontaktu, odnośnie którego notyfikację wybraliśmy. Jest to o tyle komfortowe, że dopóki nie klikniemy adnotacji, będzie nam ona wciąż przypominała o tym, żeby zadzwonić, a gdy zostanie już wybrana poniekąd zmusi użytkownika do wykonania zaplanowanego telefonu.
 <img src="ss4.png" width="40%" height="40%" />
@@ -130,16 +139,14 @@ Po kliknięciu konkretnej adnotacji aplikacja przekierowuje użytkownika bezpoś
 
 
  
-
-  11900rek Funkcjonalności - fragmenty kodu aplikacji
+### 	5.5. Funkcjonalności - fragmenty kodu aplikacji
 
 a) Funkcja setContactCalls odpowiedzialna jest za dopasowanie połączeń do konkretnych kontaktów:
 ```java
 
             while (!phone.isAfterLast()) {
-		.
-		.
-		.
+            
+		...
 
                 Call recentCall = new Call();
                 if(calls != null) {
@@ -165,15 +172,11 @@ a) Funkcja setContactCalls odpowiedzialna jest za dopasowanie połączeń do kon
 b) Funkcja CallNotification odpowiedzialna za pokazanie pojedynczej notyfikacji:
 ```java
  public class CallNotification {
-	.
-	.
-	.
+	...
     }
 
     public void showNotification(String message, String tittle, Context context, int id, String phoneNumber) {
-	.
-	.
-	.
+	...
 
         Notification notification = new NotificationCompat.Builder(context)
                 .setSmallIcon(R.drawable.babcia)
@@ -183,9 +186,8 @@ b) Funkcja CallNotification odpowiedzialna za pokazanie pojedynczej notyfikacji:
                 .setAutoCancel(true)
                 .build();
 
-        NotificationManager notificationManager = (NotificationManager) context.getSystemService(context.NOTIFICATION_SERVICE);
+        NotificationManager notificationManager = (NotificationManager) 
         notificationManager.notify(id, notification);
-        notificationNumber++;
     }
 
 }
@@ -220,28 +222,20 @@ c) Główna funkcja odpowiedzialna za wybieranie kontaktów nadających się do 
 d) Klasa odpowiedzialna za tworzenie alarmów systemowych, które po danym czasie wywołają funkcje wyświetlającą notyfikacje. + możliwość anulowania zakolejkowanych notyfikacji:
 ```java
     public class AlarmBroadcaster {
-	.
-	.
-	.
+	...
 	
         public AlarmBroadcaster(Context context, String tittle, String message, String phoneNumber, String id) {
-	.
-	.
-	.
+		...
             reminderBroadcastIntent = PendingIntent.getBroadcast(context, Integer.parseInt(id), intent, PendingIntent.FLAG_UPDATE_CURRENT);
 
         }
 
         public void setAlarmBroadcast(int minutes){
-	.
-	.
-	.
+		...
             alarmToBroadcast.set(AlarmManager.RTC_WAKEUP, when, reminderBroadcastIntent);
         }
         public void cancelAlarm(String id){
-	.
-	.
-	.
+		...
             alarmToCancel.cancel(pendingIntentToCancel);
         }
     }
@@ -252,14 +246,10 @@ d) Klasa odpowiedzialna za tworzenie alarmów systemowych, które po danym czasi
 e) Funkcja tworząca mapę połączeń przypisanych do numeru na podstawie historii połączeń telefonu.
 ```java
  public void getCallDetails(Context context) {
-		.
-		.
-		.
+	...
 
         while (callDetailsCursor.moveToNext()) {
-		.
-		.
-		.
+		...
 
 
             if(callsMap.get(phNumber) != null)
@@ -278,7 +268,7 @@ e) Funkcja tworząca mapę połączeń przypisanych do numeru na podstawie histo
 }
 ```
 <a name="Implementacja"/>
-## Implementacja
+## 6. Implementacja
 
 ### 6.1. Coś tu
 ### 6.2 Użyte technologie
