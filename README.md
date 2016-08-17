@@ -158,8 +158,6 @@ a) Funkcja setContactCalls odpowiedzialna jest za dopasowanie połączeń do kon
 
                 contact.setRecentCall(recentCall);
 
-                Log.i("TUTAJ numer+data", number +" --> "+ contact.recentCall.getDate());
-                phone.moveToNext();
             }
 
 ```
@@ -167,16 +165,15 @@ a) Funkcja setContactCalls odpowiedzialna jest za dopasowanie połączeń do kon
 b) Funkcja CallNotification odpowiedzialna za pokazanie pojedynczej notyfikacji:
 ```java
  public class CallNotification {
-
-    static int notificationNumber = 0;
-    public CallNotification(){
+	.
+	.
+	.
     }
 
     public void showNotification(String message, String tittle, Context context, int id, String phoneNumber) {
-        Intent intent = new Intent(Intent.ACTION_DIAL);
-        intent.setData(Uri.parse("tel:"+phoneNumber));
-
-        PendingIntent pi = PendingIntent.getActivity(context, 0, intent, 0);
+	.
+	.
+	.
 
         Notification notification = new NotificationCompat.Builder(context)
                 .setSmallIcon(R.drawable.babcia)
@@ -223,36 +220,28 @@ c) Główna funkcja odpowiedzialna za wybieranie kontaktów nadających się do 
 d) Klasa odpowiedzialna za tworzenie alarmów systemowych, które po danym czasie wywołają funkcje wyświetlającą notyfikacje. + możliwość anulowania zakolejkowanych notyfikacji:
 ```java
     public class AlarmBroadcaster {
-        private Context context;
-        private PendingIntent reminderBroadcastIntent;
-
-        public  AlarmBroadcaster(Context context){
-            this.context = context;
-        }
+	.
+	.
+	.
+	
         public AlarmBroadcaster(Context context, String tittle, String message, String phoneNumber, String id) {
-            this.context = context;
-            Intent intent = new Intent(context, AlarmReceiver.class);
-            intent.putExtra("tittle", tittle);
-            intent.putExtra("message", message);
-            intent.putExtra("id", id);
-            intent.putExtra("phoneNumber", phoneNumber);
+	.
+	.
+	.
             reminderBroadcastIntent = PendingIntent.getBroadcast(context, Integer.parseInt(id), intent, PendingIntent.FLAG_UPDATE_CURRENT);
 
         }
 
         public void setAlarmBroadcast(int minutes){
-            //Set the alarm to 10 seconds from now
-            Calendar c = Calendar.getInstance();
-            c.add(Calendar.MINUTE,  minutes);
-            long when = c.getTimeInMillis();
-            // Schedule the alarm!
-            AlarmManager alarmToBroadcast = (AlarmManager)context.getSystemService(Context.ALARM_SERVICE);
+	.
+	.
+	.
             alarmToBroadcast.set(AlarmManager.RTC_WAKEUP, when, reminderBroadcastIntent);
         }
         public void cancelAlarm(String id){
-            AlarmManager alarmToCancel = (AlarmManager)context.getSystemService(Context.ALARM_SERVICE);
-            Intent intent = new Intent(context, AlarmReceiver.class);
-            PendingIntent pendingIntentToCancel = PendingIntent.getBroadcast(context, Integer.parseInt(id), intent, PendingIntent.FLAG_UPDATE_CURRENT);
+	.
+	.
+	.
             alarmToCancel.cancel(pendingIntentToCancel);
         }
     }
@@ -263,16 +252,14 @@ d) Klasa odpowiedzialna za tworzenie alarmów systemowych, które po danym czasi
 e) Funkcja tworząca mapę połączeń przypisanych do numeru na podstawie historii połączeń telefonu.
 ```java
  public void getCallDetails(Context context) {
-	.
-	.
-	.
+		.
+		.
+		.
 
         while (callDetailsCursor.moveToNext()) {
-            String phNumber = callDetailsCursor.getString(number);
-            String callDate = callDetailsCursor.getString(date);
-            String contactName = callDetailsCursor.getString(name);
-            Date callDateTime = new Date(Long.valueOf(callDate));
-            String callDuration = callDetailsCursor.getString(duration);
+		.
+		.
+		.
 
 
             if(callsMap.get(phNumber) != null)
@@ -288,7 +275,6 @@ e) Funkcja tworząca mapę połączeń przypisanych do numeru na podstawie histo
             }
 
         }
-callDetailsCursor.close();
 }
 ```
 <a name="Implementacja"/>
