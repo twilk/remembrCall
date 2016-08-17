@@ -26,7 +26,11 @@ SŁOWA KLUCZOWE:
 „aplikacja” „Android” ”rodzina” „przypomnienia” „prostota” „adnotacje” „notyfikacje” „kontakt” „organizacja” „oszczędność czasu” „zadzwonić”  „telefon” „systematyczność” „połączenie”
 
 ### Spis treści  
-
+<br/>1. [Streszczenie](#Streszczenie) 
+<br/>2. [Wstep](#Wstep) 
+<br/>3. [Analiza problemu](#Opis) 
+<br/>3.1. [Porównanie dostępnych rozwiązań](#Porownanie)
+<br/>3.2. [Możliwości zastosowania praktycznego](#Mozliwosci)
 <br/>4. [Wymagania funkcjonalne i niefunkcjonalne](#Wymagania)
 <br/>4.1. Wymagania funkcjonalne
 <br/>4.2. Wymagania niefunkcjonalne
