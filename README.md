@@ -38,7 +38,7 @@ SŁOWA KLUCZOWE:
 <br/>5.1. Aktorzy i przypadki użycia --> diagramy robić!!!!!!!
 <br/>5.2. Diagram klas
 <br/>5.3. Diagram modelu danych
-<br/>5.4. Projekt interfejsu użytkownika --> zamaskować numery
+<br/>5.4. Projekt interfejsu użytkownika
 <br/>5.5. Funkcjonalności - fragmenty kodu aplikacji --> okroić ten szajs
 <br/>6. [Implementacja](#Implementacja)
 <br/>6.1. Architektura rozwiązania
@@ -47,7 +47,7 @@ SŁOWA KLUCZOWE:
 <br/>7. [Podział pracy nad projektem](#Wklad)
 <br/>7.1. Jessica Tkacz
 <br/>7.2. Tomasz Wilk
-<br/>8. [Podstumowanie](#podsumowanie)
+<br/>8. [Podsumowanie](#podsumowanie)
 <br/>9. [Bibliografia](#Bibliografia)
 <br/>10. [Załączone źródła](#potoki)
 
