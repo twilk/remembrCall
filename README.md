@@ -135,31 +135,11 @@ Po kliknięciu konkretnej adnotacji aplikacja przekierowuje użytkownika bezpoś
 
 a) Funkcja setContactCalls odpowiedzialna jest za dopasowanie połączeń do konkretnych kontaktów:
 ```java
-    public void setContactCalls(Map<String, Contact> contactsMap, Map<String, ArrayList<Call>> callsMap){
-
-        final String[] numberProjection = new String[]{
-                Phone.NUMBER,
-                Phone.CONTACT_ID,
-        };
-
-        Cursor phone = new CursorLoader(context,
-                Phone.CONTENT_URI,
-                numberProjection,
-                null,
-                null,
-                null).loadInBackground();
-
-        if (phone.moveToFirst()) {
-            final int contactNumberColumnIndex = phone.getColumnIndex(Phone.NUMBER);
-            final int contactIdColumnIndex = phone.getColumnIndex(Phone.CONTACT_ID);
 
             while (!phone.isAfterLast()) {
-                final String numberBeforeConversion = phone.getString(contactNumberColumnIndex);
-                final String contactId = phone.getString(contactIdColumnIndex);
-                String number = numberBeforeConversion.replaceAll("\\D+","");
-
-                Contact contact = contactsMap.get(contactId);
-                ArrayList<Call> calls = callsMap.get(number);
+		.
+		.
+		.
 
                 Call recentCall = new Call();
                 if(calls != null) {
@@ -181,9 +161,7 @@ a) Funkcja setContactCalls odpowiedzialna jest za dopasowanie połączeń do kon
                 Log.i("TUTAJ numer+data", number +" --> "+ contact.recentCall.getDate());
                 phone.moveToNext();
             }
-        }
 
-phone.close();
 ```
 
 b) Funkcja CallNotification odpowiedzialna za pokazanie pojedynczej notyfikacji:
@@ -216,7 +194,7 @@ b) Funkcja CallNotification odpowiedzialna za pokazanie pojedynczej notyfikacji:
 }
 ```
 
-c) Głowa programu odpowiedzialna za wybieranie kontaktów nadających się do wysłania notyfikacji:
+c) Główna funkcja odpowiedzialna za wybieranie kontaktów nadających się do wysłania notyfikacji:
 ```java
                 if(c.isChecked()){
                     Log.i("longCall", c.name + " " + c.delay + " od ostatniej rozmowy "+ (c.getProgression()*(1000)));
@@ -281,78 +259,13 @@ d) Klasa odpowiedzialna za tworzenie alarmów systemowych, które po danym czasi
 }
 ```
 
-e) ViewDisplay jest adapterem, który zajmuje się wyświetlaniem zapisanych ustawień użytkownika, lub (jeżeli nie ma zapisanych) wyświetla domyślne ustawienia.
-```java
- public class ViewDisplay extends ArrayAdapter<Contact>{
 
-
-	public ViewDisplay(Context context, ArrayList<Contact> contacts) {
-		super(context, 0, contacts);
-	}
-
-	@Override
-	public View getView(int position, View convertView, ViewGroup parent) {
-		// Get the data item
-		Contact contact = getItem(position);
-		// Check if an existing view is being reused, otherwise inflate the view
-		View view = convertView;
-		if (view == null) {
-			LayoutInflater inflater = LayoutInflater.from(getContext());
-			view = inflater.inflate(R.layout.single_contact, parent, false);
-		}
-		// Populate the data into the template view using the data object
-		TextView name = (TextView) view.findViewById(R.id.tvName);
-		TextView phone = (TextView) view.findViewById(R.id.tvPhone);
-		SeekBar contactSeekBar = (SeekBar) view.findViewById(R.id.contactSeekBar);
-		TextView seekBarProgress = (TextView) view.findViewById(R.id.seekBarProgress);
-		CheckBox checkBox = (CheckBox) view.findViewById(R.id.remindCheckBox);
-
-		contact.setSeekBar(contactSeekBar);
-		contact.setProgressValue(seekBarProgress);
-		contact.setCheckBox(checkBox);
-		contact.initializeContact();
-		contactSeekBar.setProgress(contact.getProgression());
-		seekBarProgress.setText(""+contact.getProgression());
-		checkBox.setChecked(contact.isChecked());
-
-
-
-		name.setText(contact.name);
-		phone.setText("");
-
-		if (contact.numbers.size() > 0 && contact.numbers.get(0) != null) {
-			phone.setText(contact.numbers.get(0).number);
-		}
-
-		return view;
-	}
-}
-```
-
-f) Funkcja tworząca mapę połączeń przypisanych do numeru na podstawie historii połączeń telefonu.
+e) Funkcja tworząca mapę połączeń przypisanych do numeru na podstawie historii połączeń telefonu.
 ```java
  public void getCallDetails(Context context) {
-        Log.i("LogDetails12", "getCallDetails");
-
-        final String[] numberProjection = new String[]{
-                CallLog.Calls.NUMBER,
-                CallLog.Calls.DATE,
-                CallLog.Calls.DURATION,
-                CallLog.Calls.CACHED_NAME,
-        };
-
-        Cursor callDetailsCursor = new CursorLoader(context,
-                CallLog.Calls.CONTENT_URI,
-                numberProjection,
-                null,
-                null,
-                null).loadInBackground();
-
-        int number = callDetailsCursor.getColumnIndex(CallLog.Calls.NUMBER);
-        int date = callDetailsCursor.getColumnIndex(CallLog.Calls.DATE);
-        int duration = callDetailsCursor.getColumnIndex(CallLog.Calls.DURATION);
-        int name = callDetailsCursor.getColumnIndex(CallLog.Calls.CACHED_NAME);
-
+	.
+	.
+	.
 
         while (callDetailsCursor.moveToNext()) {
             String phNumber = callDetailsCursor.getString(number);
@@ -376,6 +289,7 @@ f) Funkcja tworząca mapę połączeń przypisanych do numeru na podstawie histo
 
         }
 callDetailsCursor.close();
+}
 ```
 <a name="Implementacja"/>
 ## Implementacja
@@ -393,14 +307,14 @@ Aplikacja została napisana w języku programowania Java w środowisku Android S
 ##7. Podział pracy nad projektem
 
 Określenie indywidualnego wkładu w pracę każdego z członków zespołu:
-##	7.1. Tkacz Jessica: 
+###	7.1. Tkacz Jessica: 
 	* wczytywanie ustawień dla kontaktów,
 	* strona wizualna aplikacji (front-end oraz widoki),
 	* modele kontaktów,
 	* pobieranie rejestru połączeń, 
 	* dokumentacja
 
-##	7.2. Wilk Tomasz: 
+###	7.2. Wilk Tomasz: 
 	* zapisaniem ustawień dla kontaktów,
 	* pobieranie kontaktów z urządzenia, 
 	* zarządzaniem notyfikacjami, 
