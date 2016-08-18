@@ -319,6 +319,18 @@ Określenie indywidualnego wkładu w pracę każdego z członków zespołu:
 <a name="podsumowanie"/>
 ##7. Podsumowanie
 
+	Zgodnie z założeniami stworzyliśmy aplikację prostą w obsłudze, dopasowującą się wymaganiami do osób z różnym stopniem obycia z nowoczesnymi technologiami. Zrealizowane zostały wszystkie funkcjonalności, które wydawały nam się najważniejsze. Na pewno zostały pewne niedociągnięcia, rzeczy które mnożna było zrobić lepiej bądź sprytniej, jednak mimo wszystko jesteśmy zadowoleni z efektów naszej pracy.
+
+	Naszym zdaniem największym osiągnięciem było [ tu będzie jeszcze akapit]
+
+	Nie udało nam się natomiast sprawić, by aplikacja działała całkowicie w tle, tzn. po wyrzuceniu jej z ostatnio używanych aplikacji. Wynika to z faktu, iż zbyt późno zorientowaliśmy się, że nie będzie takiej możliwości. Powodem jest wersja systemu Android, dla której pisaliśmy RemembrCall. Okazało się, że trzeba by zmienić dużą część aplikacji by wprowadzić to udogodnienie, co zresztą planujemy zrobić w przyszłości, jako, że udostępniamy naszą pracę na platformie Sklep Play. Nie uważamy tego jednak za zbyt duży problem ze względu na to, że zaobserwowaliśmy, iż znaczna część naszych odbiorców praktycznie w ogóle nie kasuje ostatnio używanych aplikacji.
+
+	Praca w dwuosobowej grupie miała swoje plusy i minusy. Dzięki współpracy mogliśmy podzielić między sobą obowiązki, sprawdzić się jako członek zespołu. Utrudnieniem był fakt, iż oboje pracujemy w bardzo różnych godzinach, praktycznie na zmianę. Ograniczało to ilość spotkań, a nawet rozmów na temat naszej aplikacji. Z czasem udało się nam jednak unormować tę sytuację i bardziej zaangażować w projekt..
+
+	  Pisanie aplikacji dla systemu Andoid, a także korzystanie z narzędzi do ich tworzenia było dla nas nowością, czymś z czym nie spotkaliśmy się na studiach. Zależało nam jednak by właśnie dla tego systemu stworzyć aplikację, gdyż oboje jesteśmy jej użytkownikami. Dzięki temu mogliśmy testować RemembrCall na własnych telefonach, a nie tylko na emulatorze w środowisku Android Studio. Mimo początkowych problemów wytrwaliśmy w tym postanowieniu i  bardzo się z tego cieszymy. Pomocna była znajomość języka programowania Java, z którym to natomiast mieliśmy wiele do czynienia podczas studiów. Dużym wsparciem dla naszej współpracy okazał się serwis internetowy GitHub, gdyż korzystaliśmy z systemu kontroli wersji Git.
+
+	Wyzwanie jakim było pisanie pracy licencjackiej okazało się być bardzo pouczające. Nie tylko ze względu na nowo nabytą wiedzę w zakresie informatyki, ale również jako doświadczenie życiowe. W nowej dla nas sytuacji poznaliśmy inną wersję/odsłonę własnej osoby. Dzięki temu na przyszłość w podobnej sytuacji poradzimy sobie sprawniej.
+
 <a name="Bibliografia"/>
 ##8. Bibliografia
 
