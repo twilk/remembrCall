@@ -102,10 +102,10 @@ Oprócz przypomnieniu o telefonie dostępne jest również przypomnienie o wysł
 ####3.1.2. Call Reminder (AppAspect Technologies Pvt. Ltd.) - kolejna aplikacja o tej samej nazwie, również przeznaczona dla użytkowników systemu Android.
 
 Podobieństwa:
-W założeniu podobieństwem miał być fakt, iż aplikacja przypomina o wykonaniu połączenia. Obie aplikacje mają możliwość wyboru częstotliwości połączeń
+Głównym zadaniem obu aplikacji jest przypomnienie użytkownikowi o wykonaniu telefonu. Obie również mają możliwość wyboru częstotliwości połączeń
 
 Różnice:
-Trzeba manualnie wprowadzić numer oraz nazwę kontaktu, można wybrać godzinę przypomnienia oraz częstotliwość przypomnień nawet raz na rok. Do wyboru również przypomnienie o wysłaniu sms’a oraz możliwość zrobienia notatki. Aplikacja niepotrzebnie wyświetla u siebie spis połączeń oraz książkę kontaktów. Przede wszystkim problemem jest fakt, iż aplikacja nie przypomina o tym, co się ustawiło, nie spełnia swojego założenia, czyli nie działa. Sposobem na przypomnienie sobie o wykonaniu telefonu jest tylko wejście w aplikację i sprawdzenie tego, co sami zapisaliśmy, czyli działa to bardziej na zasadzie notatki.
+Trzeba manualnie wprowadzić numer oraz nazwę kontaktu, można wybrać godzinę przypomnienia oraz częstotliwość przypomnień nawet raz na rok. Do wyboru również przypomnienie o wysłaniu sms’a oraz możliwość zrobienia notatki. Aplikacja niepotrzebnie wyświetla u siebie spis połączeń oraz książkę kontaktów. Call Reminder dokonuje przypomnienia w sposób dość inwazyjny tj. wyświetla powiadomienie na środku ekranu wydając przy tym irytujący dźwięk, trzeba zadzwonić natychmiast albo przypomnienie się usuwa. RemembrCall wysyła przypomnienie dyskretnie i pozostaje na górze ekranu do czasu, aż użytkownik zdecyduje się je wybrać.
 	
 
 <a name="Mozliwosci"/>
