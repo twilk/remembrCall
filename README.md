@@ -30,35 +30,33 @@ SŁOWA KLUCZOWE:
 <br/>
 <br/>2. [Wstep](#Wstep)
 <br/>
-<br/>3. [Analiza problemu](#Opis) 
-<br/>3.1. [Porównanie dostępnych rozwiązań](#Porownanie)
-<br/>3.2. [Możliwości zastosowania praktycznego](#Mozliwosci)
+<br/>3. [Analiza problemu](#Opis)  sam tytuł zostaje
+<br/>3.1. [Porównanie dostępnych rozwiązań](#Porownanie) z 2 apki opisać rózniece i podobieństwa
+<br/>3.2. [Możliwości zastosowania praktycznego](#Mozliwosci) nie wiem czy ten punkt nam wgl potrzebny
 <br/>
 <br/>4. [Wymagania funkcjonalne i niefunkcjonalne](#Wymagania)
 <br/>4.1. Wymagania funkcjonalne
 <br/>4.2. Wymagania niefunkcjonalne
 <br/>
 <br/>5. [Projekt systemu](#projekt)
-<br/>5.1. Aktorzy i przypadki użycia --> diagramy robić!!!!!!!
-<br/>5.2. Diagram klas
-<br/>5.3. Diagram modelu danych
-<br/>5.4. Projekt interfejsu użytkownika
-<br/>5.5. Funkcjonalności - fragmenty kodu aplikacji
+<br/>5.1. Architektura rozwiązania - sam tytuł zostaje
+<br/>5.1.1 Aktorzy i przypadki użycia --> DIAGRAMY I TAKIE TAM NA GWAŁT!!!!!!!
+<br/>5.1.2 Diagram klas -II-
+<br/>5.1.3 Diagram modelu danych -II-
+<br/>5.2. Projekt interfejsu użytkownika V
+<br/>5.3. Funkcjonalności - fragmenty kodu aplikacji - jak bd czas to można doopisać
+<br/>5.4. Użyte technologie  - gadka o użytych technologiach, wytłumaczenie konkretnych zagadnień
+<br/>5.5. [Testowanie aplikacji](#Testowanie) - rozpisaać WILU
 <br/>
-<br/>6. [Implementacja](#Implementacja)
-<br/>6.1. Architektura rozwiązania
-<br/>6.2. Użyte technologie
-<br/>6.3. [Testowanie aplikacji](#Testowanie)
+<br/>6. [Podział pracy nad projektem](#Wklad)
+<br/>6.1. Jessica Tkacz
+<br/>6.2. Tomasz Wilk
 <br/>
-<br/>7. [Podział pracy nad projektem](#Wklad)
-<br/>7.1. Jessica Tkacz
-<br/>7.2. Tomasz Wilk
+<br/>7. [Podsumowanie](#podsumowanie) JESS
 <br/>
-<br/>8. [Podsumowanie](#podsumowanie)
+<br/>8. [Bibliografia](#Bibliografia) jak tu dotrzemy to umrzemy ze szczęścia <3
 <br/>
-<br/>9. [Bibliografia](#Bibliografia)
-<br/>
-<br/>10. [Załączone źródła](#potoki)
+<br/>9. [Załączone źródła](#potoki)
 
 
 
@@ -121,7 +119,14 @@ Można również uruchomić aplikację w środowisku Android Studio, w którym b
 
 <a name="projekt"/>
 ## 5. Projekt systemu
-### 	5.4. Projekt interfejsu użytkownika
+###5.1. Architektura rozwiązania
+####5.1.1. Aktorzy i przypadki użycia
+####5.1.2. Diagram klas
+####5.1.3. Diagram modelu danych albo encji
+
+
+
+### 	5.2. Projekt interfejsu użytkownika
 
 Strona główna po uruchomieniu aplikacji RemembrCall. Wyświetlają się tutaj wszystkie kontakty pobrane z telefonu. Do każdego kontaktu widzianego
 w osobnej ramce mamy opcje wyboru częstotliwości połączeń oraz pole do zaznaczenia aby ustawienia zostały wzięte pod uwagę. Na dole po prawej stronie widnieje przycisk „Zapisz”, którego wciśnięcie jest konieczne do działania aplikacji. Na samej górze znajduje się krótki opis korzystania z niej.
@@ -139,7 +144,7 @@ Po kliknięciu konkretnej adnotacji aplikacja przekierowuje użytkownika bezpoś
 
 
  
-### 	5.5. Funkcjonalności - fragmenty kodu aplikacji
+### 	5.3. Funkcjonalności - fragmenty kodu aplikacji
 
 a) Funkcja setContactCalls odpowiedzialna jest za dopasowanie połączeń do konkretnych kontaktów:
 ```java
@@ -267,30 +272,27 @@ e) Funkcja tworząca mapę połączeń przypisanych do numeru na podstawie histo
         }
 }
 ```
-<a name="Implementacja"/>
-## 6. Implementacja
 
-### 6.1. Coś tu
-### 6.2 Użyte technologie
+### 5.4 Użyte technologie
 
 Aplikacja została napisana w języku programowania Java w środowisku Android Studio w wersji 2.1.. Aplikacja zaprogramowana została z myślą o użytkownikach systemu Android 5.0. bądź późniejszym. Program kompilowany był dla wersji Android API 21., a buildowany dokładnie dla wersji 21.1.2. poprzez gradle 2.1. Odbiór zewnętrznych wiadomości został zrealizowany przez GCM (ang. Google Cloud Messages) przy pomocy pushbots w wersji 2.0.13.. Front-end występuje w postaci plików xml (ang. Extensible Markup Language) w wersji 1.0. z kodowaniem UTF-8.
 
 <a name="Testowanie"/>
-### 6.3 Testowanie aplikacji
+### 5.5 Testowanie aplikacji
 	Testowanie aplikacji przeprowadzono manualnie wykonując wybrane operacje w aplikacji.
 	
 <a name="Wklad"/>
-##7. Podział pracy nad projektem
+##6. Podział pracy nad projektem
 
 Określenie indywidualnego wkładu w pracę każdego z członków zespołu:
-###	7.1. Tkacz Jessica: 
+###	6.1. Tkacz Jessica: 
 	* wczytywanie ustawień dla kontaktów,
 	* strona wizualna aplikacji (front-end oraz widoki),
 	* modele kontaktów,
 	* pobieranie rejestru połączeń, 
 	* dokumentacja
 
-###	7.2. Wilk Tomasz: 
+###	6.2. Wilk Tomasz: 
 	* zapisaniem ustawień dla kontaktów,
 	* pobieranie kontaktów z urządzenia, 
 	* zarządzaniem notyfikacjami, 
@@ -299,10 +301,10 @@ Określenie indywidualnego wkładu w pracę każdego z członków zespołu:
 	* testowanie aplikacji
 
 <a name="podsumowanie"/>
-##8. Podsumowanie
+##7. Podsumowanie
 
 <a name="Bibliografia"/>
-##9. Bibliografia
+##8. Bibliografia
 
 <a name="potoki"/>
-##10. Załączone źródła
+##9. Załączone źródła
