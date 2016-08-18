@@ -31,7 +31,7 @@ SŁOWA KLUCZOWE:
 <br/>2. [Wstep](#Wstep)
 <br/>
 <br/>3. [Analiza problemu](#Opis)  sam tytuł zostaje
-<br/>3.1. [Porównanie dostępnych rozwiązań](#Porownanie) z 2 apki opisać rózniece i podobieństwa
+<br/>3.1. [Porównanie dostępnych rozwiązań](#Porownanie)
 <br/>3.2. [Możliwości zastosowania praktycznego](#Mozliwosci) nie wiem czy ten punkt nam wgl potrzebny
 <br/>
 <br/>4. [Wymagania funkcjonalne i niefunkcjonalne](#Wymagania)
@@ -90,6 +90,22 @@ Istnieją oczywiście aplikacje dla systemu Android, które choć po części mi
 <a name="Porownanie"/>
 ###	3.1. Porównanie dostępnych rozwiązań
 Analiza dostępnych rozwiązań rozpoczęła się na długo przed podjęciem decyzji o pisaniu naszej aplikacji, jako że szukaliśmy czegoś podobnego do własnego użytku.
+
+####3.1.1. Call Reminder (Duckbone Apps)- aplikacja dostępna w Sklepie Play na platformę Android. Nazwa sugeruje funkcjonalność zbliżoną do RemembrCall.
+
+Podobieństwa:
+Jest możliwość ustawienia przypomnienia o wykonaniu telefonu do konkretnego numeru o konkretnej godzinie, można również ustawić częstotliwość przypomnienia najrzadziej na co tydzień. 
+
+Różnice:
+Oprócz przypomnieniu o telefonie dostępne jest również przypomnienie o wysłaniu sms’a, maila, dodanie notatki. Występuje konieczność częstego powracania do ustawień. W przeciwieństwie do RemembrCall brak możliwości obsługi w języku polskim. Interfejs oraz sposób dokonywania ustawień bardziej złożone i kłopotliwe dla starszych i mniej zorientowanych technologicznie odbiorców. Wymaga nadania większej ilości uprawnień.
+
+####3.1.2. Call Reminder (AppAspect Technologies Pvt. Ltd.) - kolejna aplikacja o tej samej nazwie, również przeznaczona dla użytkowników systemu Android.
+
+Podobieństwa:
+W założeniu podobieństwem miał być fakt, iż aplikacja przypomina o wykonaniu połączenia. Obie aplikacje mają możliwość wyboru częstotliwości połączeń
+
+Różnice:
+Trzeba manualnie wprowadzić numer oraz nazwę kontaktu, można wybrać godzinę przypomnienia oraz częstotliwość przypomnień nawet raz na rok. Do wyboru również przypomnienie o wysłaniu sms’a oraz możliwość zrobienia notatki. Aplikacja niepotrzebnie wyświetla u siebie spis połączeń oraz książkę kontaktów. Przede wszystkim problemem jest fakt, iż aplikacja nie przypomina o tym, co się ustawiło, nie spełnia swojego założenia, czyli nie działa. Sposobem na przypomnienie sobie o wykonaniu telefonu jest tylko wejście w aplikację i sprawdzenie tego, co sami zapisaliśmy, czyli działa to bardziej na zasadzie notatki.
 	
 
 <a name="Mozliwosci"/>
