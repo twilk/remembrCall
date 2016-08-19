@@ -147,7 +147,31 @@ Można również uruchomić aplikację w środowisku Android Studio, w którym b
 <a name="Usecase"/>
 ####5.1.1. Przypadki użycia
 
-[content]
+UC-1: Uruchomienie aplikacji 
+Główny scenariusz: 
+1. Użytkownik otrzymuje listę kontaktów 
+2. Użytkownik znajduje wybrany kontakt 
+3. Użytkownik ustala pożądaną częstotliwość kontaktu z wybraną osobą używając paska przewijania 
+4. Użytkownik potwierdza wybór zaznaczając pole typu checkbox 
+5. Użytkownik potwierdza ustawienia przyciskiem Zapisz 
+
+UC-2: Dodanie/Usunięcie kontaktu 
+Główny scenariusz: 
+1. Użytkownik dodaje kontakt w swojej książce adresowej(Kontakty) 
+2. Użytkownik znajduje dodany/edytowany kontakt na końcu listy kontaktów w aplikacji 
+  Rozszerzenia: 
+    1.2. Użytkownik usuwa kontakt w swojej książce adresowej 
+    1.3. Użytkownik edytuje kontakt w swojej książce adresowej 
+
+UC-3: Ukrycie aplikacji 
+Główny scenariusz: 
+1. Użytkownik przechodzi z aplikacji do pulpitu/wychodzi z aplikacji/zostawia aplikację działającą w tle.
+
+UC-4: Naciśnięcie notyfikacji 
+Główny scenariusz: 
+1. Użytkownik rozwija pasek notyfikacji 
+2. Użytkownik dotyka wybraną notyfikację 
+3. Użytkownik przechodzi z notyfikacji do aplikacji Kontakty/Telefon z wybranym numerem
 
 ####5.1.2. Diagram klas
 ####5.1.3. Diagram modelu danych albo encji
