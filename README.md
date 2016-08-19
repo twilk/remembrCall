@@ -14,7 +14,7 @@ Tkacz Jessica | Tomasz Wilk
 
 <p align="center"><b>Specjalność</b>: Aplikacje internetowe i bazy danych</p>
 
-<p align="center">Aplikacja dla systemu Android usprawniająca kontakty z bliskimi.</p>
+<p align="center">Aplikacja RemembrCall</p>
 
 <p align="right">Praca licencjacka napisana</p>
 
