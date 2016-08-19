@@ -38,9 +38,9 @@ SŁOWA KLUCZOWE:
 <br/>4.1. Wymagania funkcjonalne
 <br/>4.2. Wymagania niefunkcjonalne
 <br/>
-<br/>5. [Projekt systemu](#projekt)
+<br/>5. [Projekt systemu](#Projekt)
 <br/>5.1. Architektura rozwiązania - sam tytuł zostaje
-<br/>5.1.1 Aktorzy i przypadki użycia --> DIAGRAMY I TAKIE TAM NA GWAŁT!!!!!!!
+<br/>5.1.1 [Przypadki użycia](#Usecase)
 <br/>5.1.2 Diagram klas -II-
 <br/>5.1.3 Diagram modelu danych -II-
 <br/>5.2. Projekt interfejsu użytkownika V
@@ -133,10 +133,14 @@ Oczywistym ograniczeniem jest fakt, iż aplikacja jest zorientowana na system An
 Można również uruchomić aplikację w środowisku Android Studio, w którym była pisana i oglądać efekty próbnych działań na wybranym emulatorze posiadającym odpowiednią wersję systemu. 
 
 
-<a name="projekt"/>
+<a name="Projekt"/>
 ## 5. Projekt systemu
 ###5.1. Architektura rozwiązania
-####5.1.1. Aktorzy i przypadki użycia
+<a name="Usecase"/>
+####5.1.1. Przypadki użycia
+
+[content]
+
 ####5.1.2. Diagram klas
 ####5.1.3. Diagram modelu danych albo encji
 
@@ -317,7 +321,7 @@ Określenie indywidualnego wkładu w pracę każdego z członków zespołu:
 	* zarządzanie broadcasterem, 
 	* testowanie aplikacji
 <p/>
-<a name="podsumowanie"/>
+<a name="Podsumowanie"/>
 ##7. Podsumowanie
 <p>
 Zgodnie z założeniami stworzyliśmy aplikację prostą w obsłudze, dopasowującą się wymaganiami do osób z różnym stopniem obycia z nowoczesnymi technologiami. Zrealizowane zostały wszystkie funkcjonalności, które wydawały nam się najważniejsze. Na pewno zostały pewne niedociągnięcia, rzeczy które mnożna było zrobić lepiej bądź sprytniej, jednak mimo wszystko jesteśmy zadowoleni z efektów naszej pracy.
@@ -337,8 +341,9 @@ Pisanie aplikacji dla systemu Andoid, a także korzystanie z narzędzi do ich tw
 <p>
 Wyzwanie jakim było pisanie pracy licencjackiej okazało się być bardzo pouczające. Nie tylko ze względu na nowo nabytą wiedzę w zakresie informatyki, ale również jako doświadczenie życiowe. W nowej dla nas sytuacji poznaliśmy inną wersję/odsłonę własnej osoby. Dzięki temu na przyszłość w podobnej sytuacji poradzimy sobie sprawniej.
 <p/>
+
 <a name="Bibliografia"/>
 ##8. Bibliografia
 
-<a name="potoki"/>
+<a name="Potoki"/>
 ##9. Załączone źródła
