@@ -25,6 +25,14 @@ Tkacz Jessica | Tomasz Wilk
 SŁOWA KLUCZOWE:
 „aplikacja” „Android” ”rodzina” „przypomnienia” „prostota” „adnotacje” „notyfikacje” „kontakt” „organizacja” „oszczędność czasu” „zadzwonić”  „telefon” „systematyczność” „połączenie”
 
+<br/>
+<center>
+
+[![Alt text](https://img.youtube.com/vi/i75aKOg1O3w/0.jpg)](https://www.youtube.com/watch?v=i75aKOg1O3w)
+  
+
+<br/>
+  
 ### Spis treści  
 <br/>1. [Streszczenie](#Streszczenie) 
 <br/>
