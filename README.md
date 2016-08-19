@@ -14,7 +14,7 @@ Tkacz Jessica | Tomasz Wilk
 
 <p align="center"><b>Specjalność</b>: Aplikacje internetowe i bazy danych</p>
 
-<p align="center">Aplikacja RemembrCall</p>
+<p align="center">Aplikacja dla systemu Android usprawniająca kontakty z bliskimi.</p>
 
 <p align="right">Praca licencjacka napisana</p>
 
@@ -81,6 +81,9 @@ Ze względu na fakt, iż na rynku smartfonów królują w większości te zasila
 <p>
 W czasach, gdzie praktycznie każdy ma do dyspozycji smartfona bardzo zależało nam, by nasza aplikacja była prosta w obsłudze, żeby mogły z niej korzystać osoby w różnym wieku. Z tego powodu stworzony interfejs jest przejrzysty i nieskomplikowany, tak by nie nastręczał problemów osobie mało obeznanej z coraz to nowszymi technologiami. Naszym zamysłem było, by od strony użytkownika aplikacja była mało wymagająca, dlatego właściwie jedyną czynnością, jaką musi on wykonać to wybrać częstotliwość połączeń z wybranym kontaktem. Doszliśmy również do wniosku, że nie chcemy tworzyć kolejnej aplikacji z niepotrzebnymi funkcjami i częstymi aktualizacjami, które wzbudzają jedynie irytację, gdyż takich jest na rynku do wyboru aż nadmiar. Nasza RemembrCall spełnia swe zadanie i działa tak jak powinna, a przy tym nie wymaga wiele czasu ani specjalnych umiejętności.
 </p>
+<p>
+Napisana przez nas aplikacja RemembrCall dostępna jest bezpłatnie na platformie Sklep Play, która funkcjonuje na wszystkich telefonach oraz tabletach posiadających system operacyjny Android. Ponadto wykonany i udostępniony w internecie został również krótki filmik pt. "RemembrCall" opowiadający w skrócie o działaniu naszej aplikacji. Został również załączony do niniejszej pracy w wersji elektronicznej.
+<p/>
 
 <a name="Wstep"/>
 ## 2. Wstęp
@@ -338,21 +341,21 @@ Aplikacja została napisana w języku programowania Java w środowisku Android S
 
 Określenie indywidualnego wkładu w pracę każdego z członków zespołu:
 ###	6.1. Tkacz Jessica: 
-<p>	* wczytywanie ustawień dla kontaktów,
-	* strona wizualna aplikacji (front-end oraz widoki),
-	* modele kontaktów,
-	* pobieranie rejestru połączeń, 
-	* dokumentacja
-<p/>
+<p>	* wczytywanie ustawień dla kontaktów,<p/>
+<p>	* strona wizualna aplikacji (front-end oraz widoki),<p/>
+<p>	* modele kontaktów,<p/>
+<p>	* pobieranie rejestru połączeń,<p/> 
+<p>	* dokumentacja<p/>
+
 
 ###	6.2. Wilk Tomasz: 
-<p>	* zapisaniem ustawień dla kontaktów,
-	* pobieranie kontaktów z urządzenia, 
-	* zarządzaniem notyfikacjami, 
-	* mechanizm opóźniający, 
-	* zarządzanie broadcasterem, 
-	* testowanie aplikacji
-<p/>
+<p>	* zapisaniem ustawień dla kontaktów,<p/>
+<p>	* pobieranie kontaktów z urządzenia,<p/> 
+<p>	* zarządzaniem notyfikacjami, <p/>
+<p>	* mechanizm opóźniający, <p/>
+<p>	* zarządzanie broadcasterem, <p/>
+<p>	* testowanie aplikacji<p/>
+
 <a name="Podsumowanie"/>
 ##7. Podsumowanie
 <p>
@@ -365,7 +368,7 @@ Naszym zdaniem największym osiągnięciem była realizacja pomysłu stworzenia 
 Nie udało nam się natomiast sprawić, by aplikacja działała całkowicie w tle, tzn. po wyrzuceniu jej z ostatnio używanych aplikacji. Wynika to z faktu, iż zbyt późno zorientowaliśmy się, że nie będzie takiej możliwości. Powodem jest wersja systemu Android, dla której pisaliśmy RemembrCall. Okazało się, że trzeba by zmienić dużą część aplikacji by wprowadzić to udogodnienie, co zresztą planujemy zrobić w przyszłości, jako, że udostępniamy naszą pracę na platformie Sklep Play. Nie uważamy tego jednak za zbyt duży problem ze względu na to, że zaobserwowaliśmy, iż znaczna część naszych odbiorców praktycznie w ogóle nie kasuje ostatnio używanych aplikacji.
 <p/>
 <p>
-Praca w dwuosobowej grupie miała swoje plusy i minusy. Dzięki współpracy mogliśmy podzielić między sobą obowiązki, sprawdzić się jako członek zespołu. Utrudnieniem był fakt, iż oboje pracujemy w bardzo różnych godzinach, praktycznie na zmianę. Ograniczało to ilość spotkań, a nawet rozmów na temat naszej aplikacji. Z czasem udało się nam jednak unormować tę sytuację i bardziej zaangażować w projekt..
+Praca w dwuosobowej grupie miała swoje plusy i minusy. Dzięki współpracy mogliśmy podzielić między sobą obowiązki, sprawdzić się jako członek zespołu. Utrudnieniem był fakt, iż oboje pracujemy w bardzo różnych godzinach, praktycznie na zmianę. Ograniczało to ilość spotkań, a nawet rozmów na temat naszej aplikacji. Z czasem udało się nam jednak unormować tę sytuację i bardziej zaangażować w projekt.
 <p/>
 <p>
 Pisanie aplikacji dla systemu Andoid, a także korzystanie z narzędzi do ich tworzenia było dla nas nowością, czymś z czym nie spotkaliśmy się na studiach. Zależało nam jednak by właśnie dla tego systemu stworzyć aplikację, gdyż oboje jesteśmy jej użytkownikami. Dzięki temu mogliśmy testować RemembrCall na własnych telefonach, a nie tylko na emulatorze w środowisku Android Studio. Mimo początkowych problemów wytrwaliśmy w tym postanowieniu i  bardzo się z tego cieszymy. Pomocna była znajomość języka programowania Java, z którym to natomiast mieliśmy wiele do czynienia podczas studiów. Dużym wsparciem dla naszej współpracy okazał się serwis internetowy GitHub, gdyż korzystaliśmy z systemu kontroli wersji Git.
