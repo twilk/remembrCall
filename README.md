@@ -332,6 +332,15 @@ e) Funkcja tworząca mapę połączeń przypisanych do numeru na podstawie histo
 
 Aplikacja została napisana w języku programowania Java w środowisku Android Studio w wersji 2.1.. Aplikacja zaprogramowana została z myślą o użytkownikach systemu Android 5.0. bądź późniejszym. Program kompilowany był dla wersji Android API 21., a buildowany dokładnie dla wersji 21.1.2. poprzez gradle 2.1. Odbiór zewnętrznych wiadomości został zrealizowany przez GCM (ang. Google Cloud Messages) przy pomocy pushbots w wersji 2.0.13.. Front-end występuje w postaci plików xml (ang. Extensible Markup Language) w wersji 1.0. z kodowaniem UTF-8.
 
+<p>Java - Obiektowy język programowania służący do tworzenia programów źródłowych stworzony przez James’a Goslinga, pracującego ówcześnie dla Sun Microsystems.java.<p/>
+<p>Android Studio – stworzony przez Google oficjalny IDE (zintegrowane środowisko programistyczne - ang. Integrated Development Environment) do tworzenia aplikacji pod system Android. <p/>
+<p>Android - system operacyjny dla urządzeń mobilnych wprowadzony przez firmę Google.<p/>
+<p>API - interfejs Programistyczny Aplikacji. Zbiór definicji, protokołów i narzędzi do tworzenia aplikacji.<p/>
+<p>Gradle - system optymalizacji i automatyzacji procesu kompilacji kodu źródłowego aplikacji na kod maszynowy, również należący do Google. <p/>
+<p>GCM (Google Cloud Messaging) - serwis mobilny (stworzony przez Google) który pozwala przesyłać notyfikacje do użytkowników z zewnętrznego źródła .<p/>
+<p>PushBots – zaprezentowany przez PushBots, Inc darmowy serwis wysyłania notyfikacji typu push dla aplikacji mobilnych.<p/> 
+<p>Front-end - warstwa prezentacji, czyli to, co widzi użytkownik aplikacji.<p/>
+
 <a name="Testowanie"/>
 ### 5.5 Testowanie aplikacji
 	Testowanie aplikacji przeprowadzono manualnie wykonując wybrane operacje w aplikacji.
