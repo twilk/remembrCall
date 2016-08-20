@@ -27,7 +27,7 @@ SŁOWA KLUCZOWE:
 
 <br/>
 <center>
-
+Filmik na temat aplikacji RemembrCall:
 [![Alt text](https://img.youtube.com/vi/i75aKOg1O3w/0.jpg)](https://www.youtube.com/watch?v=i75aKOg1O3w)
   
 
@@ -38,31 +38,31 @@ SŁOWA KLUCZOWE:
 <br/>
 <br/>2. [Wstep](#Wstep)
 <br/>
-<br/>3. [Analiza problemu](#Opis)  sam tytuł zostaje
+<br/>3. [Analiza problemu](#Opis)
 <br/>3.1. [Porównanie dostępnych rozwiązań](#Porownanie)
-<br/>3.2. [Możliwości zastosowania praktycznego](#Mozliwosci) nie wiem czy ten punkt nam wgl potrzebny
+<br/>3.2. [Możliwości zastosowania praktycznego](#Mozliwosci)
 <br/>
 <br/>4. [Wymagania funkcjonalne i niefunkcjonalne](#Wymagania)
 <br/>4.1. Wymagania funkcjonalne
 <br/>4.2. Wymagania niefunkcjonalne
 <br/>
 <br/>5. [Projekt systemu](#Projekt)
-<br/>5.1. Architektura rozwiązania - sam tytuł zostaje
+<br/>5.1. Architektura rozwiązania
 <br/>5.1.1 [Przypadki użycia](#Usecase)
-<br/>5.1.2 Diagram klas -II-
-<br/>5.1.3 Diagram modelu danych -II-
-<br/>5.2. Projekt interfejsu użytkownika V
-<br/>5.3. Funkcjonalności - fragmenty kodu aplikacji - jak bd czas to można doopisać
-<br/>5.4. Użyte technologie  - gadka o użytych technologiach, wytłumaczenie konkretnych zagadnień
-<br/>5.5. [Testowanie aplikacji](#Testowanie) - rozpisaać WILU
+<br/>5.1.2 Diagram klas
+<br/>5.1.3 Diagram modelu danych
+<br/>5.2. Projekt interfejsu użytkownika
+<br/>5.3. Funkcjonalności - fragmenty kodu aplikacji
+<br/>5.4. Użyte technologie
+<br/>5.5. [Testowanie aplikacji](#Testowanie)
 <br/>
 <br/>6. [Podział pracy nad projektem](#Wklad)
 <br/>6.1. Jessica Tkacz
 <br/>6.2. Tomasz Wilk
 <br/>
-<br/>7. [Podsumowanie](#podsumowanie) JESS
+<br/>7. [Podsumowanie](#podsumowanie)
 <br/>
-<br/>8. [Bibliografia](#Bibliografia) jak tu dotrzemy to umrzemy ze szczęścia <3
+<br/>8. [Bibliografia](#Bibliografia)
 <br/>
 <br/>9. [Załączone źródła](#potoki)
 
@@ -108,7 +108,7 @@ Podobieństwa:
 Jest możliwość ustawienia przypomnienia o wykonaniu telefonu do konkretnego numeru o konkretnej godzinie, można również ustawić częstotliwość przypomnienia najrzadziej na co tydzień. 
 
 Różnice:
-Oprócz przypomnieniu o telefonie dostępne jest również przypomnienie o wysłaniu sms’a, maila, dodanie notatki. Występuje konieczność częstego powracania do ustawień. W przeciwieństwie do RemembrCall brak możliwości obsługi w języku polskim. Interfejs oraz sposób dokonywania ustawień bardziej złożone i kłopotliwe dla starszych i mniej zorientowanych technologicznie odbiorców. Wymaga nadania większej ilości uprawnień.
+Oprócz przypomnieniu o telefonie dostępne jest również przypomnienie o wysłaniu sms’a, maila, dodanie notatki. Występuje konieczność częstego powracania do ustawień. W przeciwieństwie do RemembrCall brak możliwości obsługi w języku polskim. Interfejs oraz sposób dokonywania ustawień bardziej złożone i kłopotliwe dla starszych i mniej zorientowanych technologicznie odbiorców. Wymaga nadania większej ilości uprawnień. Posiada reklamy.
 
 ####3.1.2. Call Reminder (AppAspect Technologies Pvt. Ltd.) - kolejna aplikacja o tej samej nazwie, również przeznaczona dla użytkowników systemu Android.
 
@@ -121,16 +121,11 @@ Trzeba manualnie wprowadzić numer oraz nazwę kontaktu, można wybrać godzinę
 
 <a name="Mozliwosci"/>
 ### 	3.2. Możliwości zastosowania praktycznego
-Aplikacja ma na celu wspomóc osoby, które z różnych powodów nie pamiętają o wykonaniu telefonu do bliskich osób, choć ważne jest dla nich utrzymywanie dobrych stosunków z nimi oraz regularny kontakt. Naszym celem było by prosty w obsłudze interfejs oraz jednorazowa konieczność tworzenia ustawień sprawiły by aplikacja mogła cieszyć się popularnością wśród różnych grup wiekowych. Nasze rozwiązanie może posłużyć zarówno młodzieży, która przez nawał obowiązków nie zawsze pamięta o tym, żeby zadzwonić do ukochanej babci, jak i również osobom starszym w kontaktach z rodziną czy w przypadku regularnych wizyt u lekarza wymagających rejestracji. Ponadto aplikacja może zostać wykorzystana przez  specjalistów różnych dziedzin jako wsparcie w kontakcie z klientami w regularnych odstępach czasu (np. comiesięczne przypomnienie o wizycie ortodontycznej). 
-2. Projekt i analiza
+Aplikacja ma na celu wspomóc osoby, które z różnych powodów nie pamiętają o wykonaniu telefonu do bliskich osób, choć ważne jest dla nich utrzymywanie dobrych stosunków z nimi oraz regularny kontakt. Naszym celem było by prosty w obsłudze interfejs oraz jednorazowa konieczność tworzenia ustawień sprawiły by aplikacja mogła cieszyć się popularnością wśród różnych grup wiekowych. Nasze rozwiązanie może posłużyć zarówno młodzieży, która przez nawał obowiązków nie zawsze pamięta o tym, żeby zadzwonić do ukochanej babci, jak i również osobom starszym w kontaktach z rodziną czy w przypadku regularnych wizyt u lekarza wymagających rejestracji. Ponadto aplikacja może zostać wykorzystana przez  specjalistów różnych dziedzin jako wsparcie w kontakcie z klientami w regularnych odstępach czasu (np. comiesięczne przypomnienie o wizycie ortodontycznej).
 
-W TYM ROZDZIALE PRAGNIEMY PRZEDSTAWIĆ WYBRANE DIAGRAMY ZWIĄZANE ZE SPOSOBEM DZIAŁANIA NASZEJ APLIKACJI, JEJ STRUKTURĄ ORAZ SAMYM JEJ ZAPROJEKTOWANIEM. wtf? : D
+
+
     
-
-
-
-
-
 <a name="Wymagania"/>
 ## 4.  Wymagania funkcjonalne i niefunkcjonalne
 
@@ -176,8 +171,8 @@ Główny scenariusz:
 2. Użytkownik dotyka wybraną notyfikację 
 3. Użytkownik przechodzi z notyfikacji do aplikacji Kontakty/Telefon z wybranym numerem
 
-####5.1.2. Diagram klas
-####5.1.3. Diagram modelu danych albo encji
+####5.1.2. Diagram klas - będzie
+####5.1.3. Diagram modelu danych albo encji - będzie
 
 
 
@@ -344,11 +339,13 @@ Aplikacja została napisana w języku programowania Java w środowisku Android S
 <p>GCM (Google Cloud Messaging) - serwis mobilny (stworzony przez Google) który pozwala przesyłać notyfikacje do użytkowników z zewnętrznego źródła .<p/>
 <p>PushBots – zaprezentowany przez PushBots, Inc darmowy serwis wysyłania notyfikacji typu push dla aplikacji mobilnych.<p/> 
 <p>Front-end - warstwa prezentacji, czyli to, co widzi użytkownik aplikacji.<p/>
+<p>DB Designer - program służący do wizualnego projektowania i modelowania baz danych.<p/> 
 
 <a name="Testowanie"/>
 ### 5.5 Testowanie aplikacji
-	Testowanie aplikacji przeprowadzono manualnie wykonując wybrane operacje w aplikacji.
-	
+<p>Testy aplikacji były przeprowadzane manualnie, zarówno na emulatorze jak i fizycznych urządzeniach. Pozwoliło to na sprawdzenie działania aplikacji na urządzeniach o różnych specyfikacjach oraz wersjach systemu Android. Testowanie manualne umożliwiło zniwelowanie potrzeby poświęcenia dodatkowego czasu na naukę i opanowanie testów automatycznych, gdyż temat ten był rozwinięty na innej specjalizacji.<p/>
+<p>Sprawdzenie aplikacji odbywało się przy każdej większej zmianie, pozwalając na wczesne wykrywanie błędów, poprawki i aktualizację kodu. Z myślą o testowaniu RemembrCall na własnych urządzeniach wybraliśmy wersję systemu Android 5.0. Zadbaliśmy więc, by urządzenia fizyczne posiadały odpowiednio wysoką wersję. Tworzenie paczki instalacyjnej oraz instalacja na urządzeniach uproszczone zostały do wciśnięcia jednego przycisku w narzędziu Android Studio. 
+<p/>	
 <a name="Wklad"/>
 ##6. Podział pracy nad projektem
 
@@ -393,5 +390,21 @@ Wyzwanie jakim było pisanie pracy licencjackiej okazało się być bardzo poucz
 <a name="Bibliografia"/>
 ##8. Bibliografia
 
+<p>[1] https://en.wikipedia.org/wiki/Front_and_back_ends<p/>
+<p>[2] https://pushbots.org<p/>
+<p>[3] https://pl.wikipedia.org/wiki/Java<p/>
+<p>[4] https://en.wikipedia.org/wiki/Android_(operating_system)<p/>
+<p>[5] https://en.wikipedia.org/wiki/Application_programming_interface<p/>
+<p>[6] https://en.wikipedia.org/wiki/Gradle<p/>
+<p>[7] https://en.wikipedia.org/wiki/Google_Cloud_Messaging<p/>
+<p>[8] https://en.wikipedia.org/wiki/Android_Studio <p/>
+<p>[9] https://pl.wikipedia.org/wiki/Zintegrowane_środowisko_programistyczne<p/>
+<p>[10] http://www.pracedyplomowe.edu.pl/wstep-do-pracy-dyplomowej.html<p/>
+<p>[11] http://www.pracedyplomowe.edu.pl/streszczenie-i-slowa-kluczowe-w-pracy-dyplomowej.html<p/>
+<p>[12] https://github.com/codepath/android-contacts-loader-demo<p/>
+
 <a name="Potoki"/>
 ##9. Załączone źródła
+
+Płyta CD zawierająca kod źródłowy aplikacji, niniejszą dokumentację 
+w wersji elektronicznej oraz krótki film opisujący działanie aplikacji.
