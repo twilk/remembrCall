@@ -284,7 +284,8 @@ d) Klasa odpowiedzialna za tworzenie alarmów systemowych, które po danym czasi
     public class AlarmBroadcaster {
 	...
 	
-        public AlarmBroadcaster(Context context, String tittle, String message, String phoneNumber, String id) {
+        public AlarmBroadcaster(Context context, String tittle, String message,
+        	String phoneNumber, String id) {
 		...
             reminderBroadcastIntent = PendingIntent.getBroadcast(context, Integer.parseInt(id), intent, PendingIntent.FLAG_UPDATE_CURRENT);
 
