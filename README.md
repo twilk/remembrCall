@@ -172,6 +172,7 @@ Główny scenariusz:
 3. Użytkownik przechodzi z notyfikacji do aplikacji Kontakty/Telefon z wybranym numerem
 
 ####5.1.2. Diagram klas - będzie
+<img src="diagram UML.png" width="70%" height="70%" />
 ####5.1.3. Diagram modelu danych albo encji - będzie
 
 
