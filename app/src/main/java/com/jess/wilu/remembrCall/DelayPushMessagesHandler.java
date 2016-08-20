@@ -82,11 +82,11 @@ public class DelayPushMessagesHandler {
         }
 
         public void setAlarmBroadcast(int minutes){
-            //Set the alarm to 10 seconds from now
+            
             Calendar c = Calendar.getInstance();
             c.add(Calendar.MINUTE,  minutes);
             long when = c.getTimeInMillis();
-            // Schedule the alarm!
+            
             AlarmManager alarmToBroadcast = (AlarmManager)context.getSystemService(Context.ALARM_SERVICE);
             alarmToBroadcast.set(AlarmManager.RTC_WAKEUP, when, reminderBroadcastIntent);
         }
