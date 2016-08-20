@@ -402,6 +402,11 @@ Wyzwanie jakim było pisanie pracy licencjackiej okazało się być bardzo poucz
 <p>[10] http://www.pracedyplomowe.edu.pl/wstep-do-pracy-dyplomowej.html<p/>
 <p>[11] http://www.pracedyplomowe.edu.pl/streszczenie-i-slowa-kluczowe-w-pracy-dyplomowej.html<p/>
 <p>[12] https://github.com/codepath/android-contacts-loader-demo<p/>
+<p>[13]http://stackoverflow.com/questions/7021606/how-to-do-notification-in-android<p/>
+<p>[14]http://stackoverflow.com/questions/10221996/how-do-i-repeat-a-method-every-10-minutes-after-a-button-press-and-end-it-on-ano<p/>
+<p>[15]http://stackoverflow.com/questions/8956218/android-seekbar-setonseekbarchangelistener<p/>
+<p>[16]https://pushbots.com/developer/docs/android-sdk-integration<p/>
+<p>[17]http://stackoverflow.com/questions/12157125/writing-and-reading-string-to-an-internal-storage-in-android<p/>
 
 <a name="Potoki"/>
 ##9. Załączone źródła
