@@ -268,7 +268,9 @@ c) Główna funkcja odpowiedzialna za wybieranie kontaktów nadających się do 
                         Log.i("longCall", message);
                         new AlarmBroadcaster(context,tittle , message, number, c.id).setAlarmBroadcast(0);
                     } else {
-                        Log.i("longCall", "dzwoniles do " + c.name + " zadzwon za " + (c.getProgression()-(c.getDelay()/(1000*60))));
+                        Log.i("longCall", "dzwoniles do " + c.name + " zadzwon za " +
+                        
+                        (c.getProgression()-(c.getDelay()/(1000*60))));
                         new AlarmBroadcaster(context, tittle, message,number, c.id)
                                 .setAlarmBroadcast((int) (c.getProgression()-(c.getDelay()/(1000*60))));
                     }
@@ -287,7 +289,8 @@ d) Klasa odpowiedzialna za tworzenie alarmów systemowych, które po danym czasi
         public AlarmBroadcaster(Context context, String tittle, String message,
         	String phoneNumber, String id) {
 		...
-            reminderBroadcastIntent = PendingIntent.getBroadcast(context, Integer.parseInt(id), intent, PendingIntent.FLAG_UPDATE_CURRENT);
+            reminderBroadcastIntent = PendingIntent.getBroadcast(context, 
+            Integer.parseInt(id), intent, PendingIntent.FLAG_UPDATE_CURRENT);
 
         }
 
