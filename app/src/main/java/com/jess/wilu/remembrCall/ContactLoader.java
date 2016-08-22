@@ -30,6 +30,7 @@ public class ContactLoader {
         String[] projectionFields = new String[]{
                 ContactsContract.Contacts._ID,
                 ContactsContract.Contacts.DISPLAY_NAME,
+                ContactsContract.Contacts.HAS_PHONE_NUMBER,
         };
         ArrayList<Contact> listContacts = new ArrayList<>();
         CursorLoader cursorLoader = new CursorLoader(context,
@@ -50,13 +51,21 @@ public class ContactLoader {
 
             int idIndex = contactsCursor.getColumnIndex(ContactsContract.Contacts._ID);
             int nameIndex = contactsCursor.getColumnIndex(ContactsContract.Contacts.DISPLAY_NAME);
+            int hasPhoneNumberIndex = contactsCursor.getColumnIndex(ContactsContract.Contacts.HAS_PHONE_NUMBER);
 
             do {
-                String contactId = contactsCursor.getString(idIndex);
-                String contactName = contactsCursor.getString(nameIndex);
-                Contact contact = new Contact(contactId, contactName);
-                contactsMap.put(contactId, contact);
-                listContacts.add(contact);
+
+                    int hasPhoneNumber = contactsCursor.getInt(hasPhoneNumberIndex);
+                    if(hasPhoneNumber == 1){
+
+                    String contactId = contactsCursor.getString(idIndex);
+                    String contactName = contactsCursor.getString(nameIndex);
+                    Contact contact = new Contact(contactId, contactName);
+                    contactsMap.put(contactId, contact);
+                    listContacts.add(contact);
+
+                    }
+
             } while (contactsCursor.moveToNext());
         }
 
@@ -90,6 +99,7 @@ public class ContactLoader {
             while (!phone.isAfterLast()) {
                 final String number = phone.getString(numberColumnIndex);
                 final String contactId = phone.getString(idColumnIndex);
+
                 Contact contact = contactsMap.get(contactId);
                 if (contact == null) {
                     continue;

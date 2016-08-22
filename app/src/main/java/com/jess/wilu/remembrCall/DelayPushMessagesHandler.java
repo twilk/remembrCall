@@ -15,6 +15,8 @@ import java.util.Date;
 public class DelayPushMessagesHandler {
 
     ArrayList<Contact> listContacts = new ArrayList<>();
+    final int dayInMilisec = 1000*60*60*24;
+    final int minuteInMilisec = 60*1000;
 
     public  DelayPushMessagesHandler(ArrayList listContacts){
         this.listContacts = listContacts;
@@ -36,20 +38,20 @@ public class DelayPushMessagesHandler {
 
                 if(c.isChecked()){
                     Log.i("longCall", c.name + " " + c.delay + " od ostatniej rozmowy "+ (c.getProgression()*(1000)));
-                    String tittle = "zadzwon do " + c.getName();
-                    String message = "Dzwoniles dawniej niz "+ c.getProgression() + " minut temu";
+                    String tittle = "Zadzwoń do " + c.getName();
+                    String message = "Dzwoniłeś dawniej niż "+ c.getProgression() + " dni temu";
                     String number = "" ;
                     if (c.numbers.size() > 0 && c.numbers.get(0) != null) {
                         number = c.numbers.get(0).number;
                     }
 
-                    if(c.getDelay() > c.getProgression()*(1000*60)){
+                    if(c.getDelay() > c.getProgression()*minuteInMilisec){
                         Log.i("longCall", message);
                         new AlarmBroadcaster(context,tittle , message, number, c.id).setAlarmBroadcast(0);
                     } else {
-                        Log.i("longCall", "dzwoniles do " + c.name + " zadzwon za " + (c.getProgression()-(c.getDelay()/(1000*60))));
+                        Log.i("longCall", "dzwoniłeś do " + c.name + " zadzwoń za " + (c.getProgression()-(c.getDelay()/minuteInMilisec)));
                         new AlarmBroadcaster(context, tittle, message,number, c.id)
-                                .setAlarmBroadcast((int) (c.getProgression()-(c.getDelay()/(1000*60))));
+                                .setAlarmBroadcast((int) (c.getProgression()-(c.getDelay()/minuteInMilisec)));
                     }
 
                 } else {

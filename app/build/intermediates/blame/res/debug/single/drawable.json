@@ -1,38 +1,74 @@
 [
     {
-        "merged": "/home/traveler/licJW/app/build/intermediates/res/merged/debug/drawable/babcia.png",
-        "source": "/home/traveler/licJW/app/src/main/res/drawable/babcia.png"
+        "merged": "C:\\home\\traveler\\licJW\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\temp_icon2.png",
+        "source": "C:\\home\\traveler\\licJW\\app\\src\\main\\res\\drawable\\temp_icon2.png"
     },
     {
-        "merged": "/home/traveler/licJW/app/build/intermediates/res/merged/debug/drawable/unchecked.xml",
-        "source": "/home/traveler/licJW/app/src/main/res/drawable/unchecked.xml"
+        "merged": "C:\\Users\\amQel\\lic\\remembrCall\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\custom_progressbar.xml",
+        "source": "C:\\Users\\amQel\\lic\\remembrCall\\app\\src\\main\\res\\drawable\\custom_progressbar.xml"
     },
     {
-        "merged": "/home/traveler/licJW/app/build/intermediates/res/merged/debug/drawable/checked.xml",
-        "source": "/home/traveler/licJW/app/src/main/res/drawable/checked.xml"
+        "merged": "C:\\Users\\amQel\\lic\\remembrCall\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\temp_icon2.png",
+        "source": "C:\\Users\\amQel\\lic\\remembrCall\\app\\src\\main\\res\\drawable\\temp_icon2.png"
     },
     {
-        "merged": "/home/traveler/licJW/app/build/intermediates/res/merged/debug/drawable/temp_icon2.png",
-        "source": "/home/traveler/licJW/app/src/main/res/drawable/temp_icon2.png"
+        "merged": "C:\\home\\traveler\\licJW\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\custom_progressbar.xml",
+        "source": "C:\\home\\traveler\\licJW\\app\\src\\main\\res\\drawable\\custom_progressbar.xml"
     },
     {
-        "merged": "/home/traveler/licJW/app/build/intermediates/res/merged/debug/drawable/contact_item.xml",
-        "source": "/home/traveler/licJW/app/src/main/res/drawable/contact_item.xml"
+        "merged": "C:\\home\\traveler\\licJW\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\chkbox.xml",
+        "source": "C:\\home\\traveler\\licJW\\app\\src\\main\\res\\drawable\\chkbox.xml"
     },
     {
-        "merged": "/home/traveler/licJW/app/build/intermediates/res/merged/debug/drawable/temp_icon_old.png",
-        "source": "/home/traveler/licJW/app/src/main/res/drawable/temp_icon_old.png"
+        "merged": "C:\\Users\\amQel\\lic\\remembrCall\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\checked.xml",
+        "source": "C:\\Users\\amQel\\lic\\remembrCall\\app\\src\\main\\res\\drawable\\checked.xml"
     },
     {
-        "merged": "/home/traveler/licJW/app/build/intermediates/res/merged/debug/drawable/chkbox.xml",
-        "source": "/home/traveler/licJW/app/src/main/res/drawable/chkbox.xml"
+        "merged": "C:\\Users\\amQel\\lic\\remembrCall\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\babcia.png",
+        "source": "C:\\Users\\amQel\\lic\\remembrCall\\app\\src\\main\\res\\drawable\\babcia.png"
     },
     {
-        "merged": "/home/traveler/licJW/app/build/intermediates/res/merged/debug/drawable/custom_progressbar.xml",
-        "source": "/home/traveler/licJW/app/src/main/res/drawable/custom_progressbar.xml"
+        "merged": "C:\\home\\traveler\\licJW\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\unchecked.xml",
+        "source": "C:\\home\\traveler\\licJW\\app\\src\\main\\res\\drawable\\unchecked.xml"
     },
     {
-        "merged": "/home/traveler/licJW/app/build/intermediates/res/merged/debug/drawable/temp_icon.png",
-        "source": "/home/traveler/licJW/app/src/main/res/drawable/temp_icon.png"
+        "merged": "C:\\Users\\amQel\\lic\\remembrCall\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\chkbox.xml",
+        "source": "C:\\Users\\amQel\\lic\\remembrCall\\app\\src\\main\\res\\drawable\\chkbox.xml"
+    },
+    {
+        "merged": "C:\\Users\\amQel\\lic\\remembrCall\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\temp_icon_old.png",
+        "source": "C:\\Users\\amQel\\lic\\remembrCall\\app\\src\\main\\res\\drawable\\temp_icon_old.png"
+    },
+    {
+        "merged": "C:\\home\\traveler\\licJW\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\babcia.png",
+        "source": "C:\\home\\traveler\\licJW\\app\\src\\main\\res\\drawable\\babcia.png"
+    },
+    {
+        "merged": "C:\\Users\\amQel\\lic\\remembrCall\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\unchecked.xml",
+        "source": "C:\\Users\\amQel\\lic\\remembrCall\\app\\src\\main\\res\\drawable\\unchecked.xml"
+    },
+    {
+        "merged": "C:\\home\\traveler\\licJW\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\temp_icon.png",
+        "source": "C:\\home\\traveler\\licJW\\app\\src\\main\\res\\drawable\\temp_icon.png"
+    },
+    {
+        "merged": "C:\\Users\\amQel\\lic\\remembrCall\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\temp_icon.png",
+        "source": "C:\\Users\\amQel\\lic\\remembrCall\\app\\src\\main\\res\\drawable\\temp_icon.png"
+    },
+    {
+        "merged": "C:\\home\\traveler\\licJW\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\contact_item.xml",
+        "source": "C:\\home\\traveler\\licJW\\app\\src\\main\\res\\drawable\\contact_item.xml"
+    },
+    {
+        "merged": "C:\\home\\traveler\\licJW\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\checked.xml",
+        "source": "C:\\home\\traveler\\licJW\\app\\src\\main\\res\\drawable\\checked.xml"
+    },
+    {
+        "merged": "C:\\home\\traveler\\licJW\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\temp_icon_old.png",
+        "source": "C:\\home\\traveler\\licJW\\app\\src\\main\\res\\drawable\\temp_icon_old.png"
+    },
+    {
+        "merged": "C:\\Users\\amQel\\lic\\remembrCall\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\contact_item.xml",
+        "source": "C:\\Users\\amQel\\lic\\remembrCall\\app\\src\\main\\res\\drawable\\contact_item.xml"
     }
 ]

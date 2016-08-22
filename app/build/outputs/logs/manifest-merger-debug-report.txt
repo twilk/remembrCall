@@ -1,151 +1,151 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /home/traveler/licJW/app/src/main/AndroidManifest.xml:2:1-58:12
+ADDED from C:\Users\amQel\lic\remembrCall\app\src\main\AndroidManifest.xml:2:1-58:12
 	package
-		ADDED from /home/traveler/licJW/app/src/main/AndroidManifest.xml:3:5-40
-		INJECTED from /home/traveler/licJW/app/src/main/AndroidManifest.xml
-		INJECTED from /home/traveler/licJW/app/src/main/AndroidManifest.xml
+		ADDED from C:\Users\amQel\lic\remembrCall\app\src\main\AndroidManifest.xml:3:5-40
+		INJECTED from C:\Users\amQel\lic\remembrCall\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\amQel\lic\remembrCall\app\src\main\AndroidManifest.xml
 	android:versionName
-		ADDED from /home/traveler/licJW/app/src/main/AndroidManifest.xml:5:5-30
-		INJECTED from /home/traveler/licJW/app/src/main/AndroidManifest.xml
-		INJECTED from /home/traveler/licJW/app/src/main/AndroidManifest.xml
+		ADDED from C:\Users\amQel\lic\remembrCall\app\src\main\AndroidManifest.xml:5:5-30
+		INJECTED from C:\Users\amQel\lic\remembrCall\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\amQel\lic\remembrCall\app\src\main\AndroidManifest.xml
 	android:versionCode
-		ADDED from /home/traveler/licJW/app/src/main/AndroidManifest.xml:4:5-28
-		INJECTED from /home/traveler/licJW/app/src/main/AndroidManifest.xml
-		INJECTED from /home/traveler/licJW/app/src/main/AndroidManifest.xml
+		ADDED from C:\Users\amQel\lic\remembrCall\app\src\main\AndroidManifest.xml:4:5-28
+		INJECTED from C:\Users\amQel\lic\remembrCall\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\amQel\lic\remembrCall\app\src\main\AndroidManifest.xml
 	xmlns:android
-		ADDED from /home/traveler/licJW/app/src/main/AndroidManifest.xml:2:11-69
+		ADDED from C:\Users\amQel\lic\remembrCall\app\src\main\AndroidManifest.xml:2:11-69
 uses-sdk
-ADDED from /home/traveler/licJW/app/src/main/AndroidManifest.xml:7:5-9:41
-MERGED from [com.android.support:support-v4:21.0.0] /home/traveler/licJW/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.0/AndroidManifest.xml:15:5-42
-MERGED from [com.pushbots:pushbots-lib:2.0.13] /home/traveler/licJW/app/build/intermediates/exploded-aar/com.pushbots/pushbots-lib/2.0.13/AndroidManifest.xml:7:5-9:41
+ADDED from C:\Users\amQel\lic\remembrCall\app\src\main\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:support-v4:21.0.0] C:\Users\amQel\lic\remembrCall\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.0\AndroidManifest.xml:15:5-42
+MERGED from [com.pushbots:pushbots-lib:2.0.13] C:\Users\amQel\lic\remembrCall\app\build\intermediates\exploded-aar\com.pushbots\pushbots-lib\2.0.13\AndroidManifest.xml:7:5-9:41
 	android:targetSdkVersion
-		ADDED from /home/traveler/licJW/app/src/main/AndroidManifest.xml:9:9-38
-		INJECTED from /home/traveler/licJW/app/src/main/AndroidManifest.xml
-		INJECTED from /home/traveler/licJW/app/src/main/AndroidManifest.xml
+		ADDED from C:\Users\amQel\lic\remembrCall\app\src\main\AndroidManifest.xml:9:9-38
+		INJECTED from C:\Users\amQel\lic\remembrCall\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\amQel\lic\remembrCall\app\src\main\AndroidManifest.xml
 	android:minSdkVersion
-		ADDED from /home/traveler/licJW/app/src/main/AndroidManifest.xml:8:9-35
-		INJECTED from /home/traveler/licJW/app/src/main/AndroidManifest.xml
-		INJECTED from /home/traveler/licJW/app/src/main/AndroidManifest.xml
+		ADDED from C:\Users\amQel\lic\remembrCall\app\src\main\AndroidManifest.xml:8:9-35
+		INJECTED from C:\Users\amQel\lic\remembrCall\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\amQel\lic\remembrCall\app\src\main\AndroidManifest.xml
 uses-permission#android.permission.READ_CONTACTS
-ADDED from /home/traveler/licJW/app/src/main/AndroidManifest.xml:11:5-71
+ADDED from C:\Users\amQel\lic\remembrCall\app\src\main\AndroidManifest.xml:11:5-71
 	android:name
-		ADDED from /home/traveler/licJW/app/src/main/AndroidManifest.xml:11:22-69
+		ADDED from C:\Users\amQel\lic\remembrCall\app\src\main\AndroidManifest.xml:11:22-69
 uses-permission#android.permission.READ_CALL_LOG
-ADDED from /home/traveler/licJW/app/src/main/AndroidManifest.xml:12:5-71
+ADDED from C:\Users\amQel\lic\remembrCall\app\src\main\AndroidManifest.xml:12:5-71
 	android:name
-		ADDED from /home/traveler/licJW/app/src/main/AndroidManifest.xml:12:22-69
+		ADDED from C:\Users\amQel\lic\remembrCall\app\src\main\AndroidManifest.xml:12:22-69
 uses-permission#android.permission.WRITE_CALL_LOG
-ADDED from /home/traveler/licJW/app/src/main/AndroidManifest.xml:13:5-72
+ADDED from C:\Users\amQel\lic\remembrCall\app\src\main\AndroidManifest.xml:13:5-72
 	android:name
-		ADDED from /home/traveler/licJW/app/src/main/AndroidManifest.xml:13:22-70
+		ADDED from C:\Users\amQel\lic\remembrCall\app\src\main\AndroidManifest.xml:13:22-70
 uses-permission#android.permission.WRITE_CONTACTS
-ADDED from /home/traveler/licJW/app/src/main/AndroidManifest.xml:14:5-72
+ADDED from C:\Users\amQel\lic\remembrCall\app\src\main\AndroidManifest.xml:14:5-72
 	android:name
-		ADDED from /home/traveler/licJW/app/src/main/AndroidManifest.xml:14:22-70
+		ADDED from C:\Users\amQel\lic\remembrCall\app\src\main\AndroidManifest.xml:14:22-70
 uses-permission#android.permission.INTERNET
-ADDED from /home/traveler/licJW/app/src/main/AndroidManifest.xml:15:5-67
+ADDED from C:\Users\amQel\lic\remembrCall\app\src\main\AndroidManifest.xml:15:5-67
 	android:name
-		ADDED from /home/traveler/licJW/app/src/main/AndroidManifest.xml:15:22-64
+		ADDED from C:\Users\amQel\lic\remembrCall\app\src\main\AndroidManifest.xml:15:22-64
 uses-permission#android.permission.ACCESS_NETWORK_STATE
-ADDED from /home/traveler/licJW/app/src/main/AndroidManifest.xml:16:5-78
+ADDED from C:\Users\amQel\lic\remembrCall\app\src\main\AndroidManifest.xml:16:5-78
 	android:name
-		ADDED from /home/traveler/licJW/app/src/main/AndroidManifest.xml:16:22-76
+		ADDED from C:\Users\amQel\lic\remembrCall\app\src\main\AndroidManifest.xml:16:22-76
 uses-permission#android.permission.GET_ACCOUNTS
-ADDED from /home/traveler/licJW/app/src/main/AndroidManifest.xml:17:5-71
+ADDED from C:\Users\amQel\lic\remembrCall\app\src\main\AndroidManifest.xml:17:5-71
 	android:name
-		ADDED from /home/traveler/licJW/app/src/main/AndroidManifest.xml:17:22-68
+		ADDED from C:\Users\amQel\lic\remembrCall\app\src\main\AndroidManifest.xml:17:22-68
 uses-permission#android.permission.WAKE_LOCK
-ADDED from /home/traveler/licJW/app/src/main/AndroidManifest.xml:18:5-68
+ADDED from C:\Users\amQel\lic\remembrCall\app\src\main\AndroidManifest.xml:18:5-68
 	android:name
-		ADDED from /home/traveler/licJW/app/src/main/AndroidManifest.xml:18:22-65
+		ADDED from C:\Users\amQel\lic\remembrCall\app\src\main\AndroidManifest.xml:18:22-65
 permission#com.jess.wilu.remembrCall.permission.C2D_MESSAGE
-ADDED from /home/traveler/licJW/app/src/main/AndroidManifest.xml:19:5-119
+ADDED from C:\Users\amQel\lic\remembrCall\app\src\main\AndroidManifest.xml:19:5-119
 	android:protectionLevel
-		ADDED from /home/traveler/licJW/app/src/main/AndroidManifest.xml:19:81-116
+		ADDED from C:\Users\amQel\lic\remembrCall\app\src\main\AndroidManifest.xml:19:81-116
 	android:name
-		ADDED from /home/traveler/licJW/app/src/main/AndroidManifest.xml:19:17-80
+		ADDED from C:\Users\amQel\lic\remembrCall\app\src\main\AndroidManifest.xml:19:17-80
 uses-permission#com.jess.wilu.remembrCall.permission.C2D_MESSAGE
-ADDED from /home/traveler/licJW/app/src/main/AndroidManifest.xml:20:5-88
+ADDED from C:\Users\amQel\lic\remembrCall\app\src\main\AndroidManifest.xml:20:5-88
 	android:name
-		ADDED from /home/traveler/licJW/app/src/main/AndroidManifest.xml:20:22-85
+		ADDED from C:\Users\amQel\lic\remembrCall\app\src\main\AndroidManifest.xml:20:22-85
 uses-permission#com.google.android.c2dm.permission.RECEIVE
-ADDED from /home/traveler/licJW/app/src/main/AndroidManifest.xml:21:5-82
+ADDED from C:\Users\amQel\lic\remembrCall\app\src\main\AndroidManifest.xml:21:5-82
 	android:name
-		ADDED from /home/traveler/licJW/app/src/main/AndroidManifest.xml:21:22-79
+		ADDED from C:\Users\amQel\lic\remembrCall\app\src\main\AndroidManifest.xml:21:22-79
 uses-permission#android.permission.CALL_PHONE
-ADDED from /home/traveler/licJW/app/src/main/AndroidManifest.xml:22:5-69
+ADDED from C:\Users\amQel\lic\remembrCall\app\src\main\AndroidManifest.xml:22:5-69
 	android:name
-		ADDED from /home/traveler/licJW/app/src/main/AndroidManifest.xml:22:22-66
+		ADDED from C:\Users\amQel\lic\remembrCall\app\src\main\AndroidManifest.xml:22:22-66
 application
-ADDED from /home/traveler/licJW/app/src/main/AndroidManifest.xml:24:5-56:19
-MERGED from [com.android.support:support-v4:21.0.0] /home/traveler/licJW/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.0/AndroidManifest.xml:16:5-19
-MERGED from [com.pushbots:pushbots-lib:2.0.13] /home/traveler/licJW/app/build/intermediates/exploded-aar/com.pushbots/pushbots-lib/2.0.13/AndroidManifest.xml:11:5-20
+ADDED from C:\Users\amQel\lic\remembrCall\app\src\main\AndroidManifest.xml:24:5-56:19
+MERGED from [com.android.support:support-v4:21.0.0] C:\Users\amQel\lic\remembrCall\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.0\AndroidManifest.xml:16:5-19
+MERGED from [com.pushbots:pushbots-lib:2.0.13] C:\Users\amQel\lic\remembrCall\app\build\intermediates\exploded-aar\com.pushbots\pushbots-lib\2.0.13\AndroidManifest.xml:11:5-20
 	android:label
-		ADDED from /home/traveler/licJW/app/src/main/AndroidManifest.xml:27:9-41
+		ADDED from C:\Users\amQel\lic\remembrCall\app\src\main\AndroidManifest.xml:27:9-41
 	android:allowBackup
-		ADDED from /home/traveler/licJW/app/src/main/AndroidManifest.xml:25:9-35
+		ADDED from C:\Users\amQel\lic\remembrCall\app\src\main\AndroidManifest.xml:25:9-35
 	android:icon
-		ADDED from /home/traveler/licJW/app/src/main/AndroidManifest.xml:26:9-43
+		ADDED from C:\Users\amQel\lic\remembrCall\app\src\main\AndroidManifest.xml:26:9-43
 	android:theme
-		ADDED from /home/traveler/licJW/app/src/main/AndroidManifest.xml:28:9-40
+		ADDED from C:\Users\amQel\lic\remembrCall\app\src\main\AndroidManifest.xml:28:9-40
 activity#com.jess.wilu.remembrCall.MainActivity
-ADDED from /home/traveler/licJW/app/src/main/AndroidManifest.xml:29:9-42:20
+ADDED from C:\Users\amQel\lic\remembrCall\app\src\main\AndroidManifest.xml:29:9-42:20
 	android:label
-		ADDED from /home/traveler/licJW/app/src/main/AndroidManifest.xml:31:13-45
+		ADDED from C:\Users\amQel\lic\remembrCall\app\src\main\AndroidManifest.xml:31:13-45
 	android:name
-		ADDED from /home/traveler/licJW/app/src/main/AndroidManifest.xml:30:13-66
+		ADDED from C:\Users\amQel\lic\remembrCall\app\src\main\AndroidManifest.xml:30:13-66
 intent-filter#android.intent.category.DEFAULT+com.jess.wilu.remembrCall.MESSAGE
-ADDED from /home/traveler/licJW/app/src/main/AndroidManifest.xml:32:13-35:29
+ADDED from C:\Users\amQel\lic\remembrCall\app\src\main\AndroidManifest.xml:32:13-35:29
 action#com.jess.wilu.remembrCall.MESSAGE
-ADDED from /home/traveler/licJW/app/src/main/AndroidManifest.xml:33:17-76
+ADDED from C:\Users\amQel\lic\remembrCall\app\src\main\AndroidManifest.xml:33:17-76
 	android:name
-		ADDED from /home/traveler/licJW/app/src/main/AndroidManifest.xml:33:25-73
+		ADDED from C:\Users\amQel\lic\remembrCall\app\src\main\AndroidManifest.xml:33:25-73
 category#android.intent.category.DEFAULT
-ADDED from /home/traveler/licJW/app/src/main/AndroidManifest.xml:34:17-76
+ADDED from C:\Users\amQel\lic\remembrCall\app\src\main\AndroidManifest.xml:34:17-76
 	android:name
-		ADDED from /home/traveler/licJW/app/src/main/AndroidManifest.xml:34:27-73
+		ADDED from C:\Users\amQel\lic\remembrCall\app\src\main\AndroidManifest.xml:34:27-73
 intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from /home/traveler/licJW/app/src/main/AndroidManifest.xml:36:13-40:29
+ADDED from C:\Users\amQel\lic\remembrCall\app\src\main\AndroidManifest.xml:36:13-40:29
 action#android.intent.action.MAIN
-ADDED from /home/traveler/licJW/app/src/main/AndroidManifest.xml:37:17-69
+ADDED from C:\Users\amQel\lic\remembrCall\app\src\main\AndroidManifest.xml:37:17-69
 	android:name
-		ADDED from /home/traveler/licJW/app/src/main/AndroidManifest.xml:37:25-66
+		ADDED from C:\Users\amQel\lic\remembrCall\app\src\main\AndroidManifest.xml:37:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /home/traveler/licJW/app/src/main/AndroidManifest.xml:39:17-77
+ADDED from C:\Users\amQel\lic\remembrCall\app\src\main\AndroidManifest.xml:39:17-77
 	android:name
-		ADDED from /home/traveler/licJW/app/src/main/AndroidManifest.xml:39:27-74
+		ADDED from C:\Users\amQel\lic\remembrCall\app\src\main\AndroidManifest.xml:39:27-74
 receiver#com.pushbots.google.gcm.GCMBroadcastReceiver
-ADDED from /home/traveler/licJW/app/src/main/AndroidManifest.xml:44:9-52:20
+ADDED from C:\Users\amQel\lic\remembrCall\app\src\main\AndroidManifest.xml:44:9-52:20
 	android:permission
-		ADDED from /home/traveler/licJW/app/src/main/AndroidManifest.xml:46:13-73
+		ADDED from C:\Users\amQel\lic\remembrCall\app\src\main\AndroidManifest.xml:46:13-73
 	android:name
-		ADDED from /home/traveler/licJW/app/src/main/AndroidManifest.xml:45:13-72
+		ADDED from C:\Users\amQel\lic\remembrCall\app\src\main\AndroidManifest.xml:45:13-72
 intent-filter#com.google.android.c2dm.intent.RECEIVE+com.google.android.c2dm.intent.REGISTRATION+com.jess.wilu.remembrCall
-ADDED from /home/traveler/licJW/app/src/main/AndroidManifest.xml:47:13-51:29
+ADDED from C:\Users\amQel\lic\remembrCall\app\src\main\AndroidManifest.xml:47:13-51:29
 action#com.google.android.c2dm.intent.RECEIVE
-ADDED from /home/traveler/licJW/app/src/main/AndroidManifest.xml:48:17-81
+ADDED from C:\Users\amQel\lic\remembrCall\app\src\main\AndroidManifest.xml:48:17-81
 	android:name
-		ADDED from /home/traveler/licJW/app/src/main/AndroidManifest.xml:48:25-78
+		ADDED from C:\Users\amQel\lic\remembrCall\app\src\main\AndroidManifest.xml:48:25-78
 action#com.google.android.c2dm.intent.REGISTRATION
-ADDED from /home/traveler/licJW/app/src/main/AndroidManifest.xml:49:17-86
+ADDED from C:\Users\amQel\lic\remembrCall\app\src\main\AndroidManifest.xml:49:17-86
 	android:name
-		ADDED from /home/traveler/licJW/app/src/main/AndroidManifest.xml:49:25-83
+		ADDED from C:\Users\amQel\lic\remembrCall\app\src\main\AndroidManifest.xml:49:25-83
 category#com.jess.wilu.remembrCall
-ADDED from /home/traveler/licJW/app/src/main/AndroidManifest.xml:50:17-70
+ADDED from C:\Users\amQel\lic\remembrCall\app\src\main\AndroidManifest.xml:50:17-70
 	android:name
-		ADDED from /home/traveler/licJW/app/src/main/AndroidManifest.xml:50:27-67
+		ADDED from C:\Users\amQel\lic\remembrCall\app\src\main\AndroidManifest.xml:50:27-67
 receiver#com.pushbots.push.DefaultPushHandler
-ADDED from /home/traveler/licJW/app/src/main/AndroidManifest.xml:53:9-73
+ADDED from C:\Users\amQel\lic\remembrCall\app\src\main\AndroidManifest.xml:53:9-73
 	android:name
-		ADDED from /home/traveler/licJW/app/src/main/AndroidManifest.xml:53:19-70
+		ADDED from C:\Users\amQel\lic\remembrCall\app\src\main\AndroidManifest.xml:53:19-70
 receiver#com.jess.wilu.remembrCall.AlarmReceiver
-ADDED from /home/traveler/licJW/app/src/main/AndroidManifest.xml:54:9-111
+ADDED from C:\Users\amQel\lic\remembrCall\app\src\main\AndroidManifest.xml:54:9-111
 	android:process
-		ADDED from /home/traveler/licJW/app/src/main/AndroidManifest.xml:54:19-44
+		ADDED from C:\Users\amQel\lic\remembrCall\app\src\main\AndroidManifest.xml:54:19-44
 	android:name
-		ADDED from /home/traveler/licJW/app/src/main/AndroidManifest.xml:54:45-99
+		ADDED from C:\Users\amQel\lic\remembrCall\app\src\main\AndroidManifest.xml:54:45-99
 service#com.pushbots.push.GCMIntentService
-ADDED from /home/traveler/licJW/app/src/main/AndroidManifest.xml:55:9-70
+ADDED from C:\Users\amQel\lic\remembrCall\app\src\main\AndroidManifest.xml:55:9-70
 	android:name
-		ADDED from /home/traveler/licJW/app/src/main/AndroidManifest.xml:55:18-67
+		ADDED from C:\Users\amQel\lic\remembrCall\app\src\main\AndroidManifest.xml:55:18-67

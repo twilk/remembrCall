@@ -28,24 +28,23 @@ public final class R {
         public static final int chkbox=0x7f020002;
         public static final int contact_item=0x7f020003;
         public static final int custom_progressbar=0x7f020004;
-        public static final int ic_launcher=0x7f020005;
-        public static final int temp_icon=0x7f020006;
-        public static final int temp_icon2=0x7f020007;
-        public static final int temp_icon_old=0x7f020008;
-        public static final int unchecked=0x7f020009;
-        public static final int yolo=0x7f02000a;
+        public static final int temp_icon=0x7f020005;
+        public static final int temp_icon2=0x7f020006;
+        public static final int temp_icon_old=0x7f020007;
+        public static final int unchecked=0x7f020008;
+        public static final int yolo=0x7f020009;
     }
     public static final class id {
         public static final int action_settings=0x7f090009;
         public static final int allContactsDisplay=0x7f090000;
-        public static final int contactSeekBar=0x7f090005;
+        public static final int contactSeekBar=0x7f090004;
         public static final int remindCheckBox=0x7f090008;
         public static final int remindConfirmButton=0x7f090001;
         public static final int seekBarProgress=0x7f090006;
         public static final int textView=0x7f090007;
         public static final int textView2=0x7f090002;
         public static final int tvName=0x7f090003;
-        public static final int tvPhone=0x7f090004;
+        public static final int tvPhone=0x7f090005;
     }
     public static final class layout {
         public static final int activity_main=0x7f030000;

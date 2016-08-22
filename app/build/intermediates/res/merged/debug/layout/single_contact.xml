@@ -15,21 +15,21 @@
         android:id="@+id/tvName"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Bob Marley"
+        android:text="Nazwa Kontaktu"
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:textStyle="bold"
         android:layout_alignParentTop="true"
-        android:layout_alignRight="@+id/tvPhone"
-        android:layout_alignEnd="@+id/tvPhone"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
-        android:textColor="@color/costam"/>
+        android:textColor="@color/costam"
+        android:layout_alignRight="@+id/contactSeekBar"
+        android:layout_alignEnd="@+id/contactSeekBar" />
 
     <TextView
         android:id="@+id/tvPhone"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="(626) 336-5889"
+        android:text="123 - 456 - 789"
         android:textAppearance="?android:attr/textAppearanceMedium"
         android:layout_below="@+id/tvName"
         android:textColor="@color/azure"/>

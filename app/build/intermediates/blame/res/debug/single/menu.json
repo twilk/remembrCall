@@ -1,6 +1,10 @@
 [
     {
-        "merged": "/home/traveler/licJW/app/build/intermediates/res/merged/debug/menu/main.xml",
-        "source": "/home/traveler/licJW/app/src/main/res/menu/main.xml"
+        "merged": "C:\\Users\\amQel\\lic\\remembrCall\\app\\build\\intermediates\\res\\merged\\debug\\menu\\main.xml",
+        "source": "C:\\Users\\amQel\\lic\\remembrCall\\app\\src\\main\\res\\menu\\main.xml"
+    },
+    {
+        "merged": "C:\\home\\traveler\\licJW\\app\\build\\intermediates\\res\\merged\\debug\\menu\\main.xml",
+        "source": "C:\\home\\traveler\\licJW\\app\\src\\main\\res\\menu\\main.xml"
     }
 ]

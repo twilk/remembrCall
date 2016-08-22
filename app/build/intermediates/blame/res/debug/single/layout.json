@@ -1,10 +1,18 @@
 [
     {
-        "merged": "/home/traveler/licJW/app/build/intermediates/res/merged/debug/layout/single_contact.xml",
-        "source": "/home/traveler/licJW/app/src/main/res/layout/single_contact.xml"
+        "merged": "C:\\home\\traveler\\licJW\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main.xml",
+        "source": "C:\\home\\traveler\\licJW\\app\\src\\main\\res\\layout\\activity_main.xml"
     },
     {
-        "merged": "/home/traveler/licJW/app/build/intermediates/res/merged/debug/layout/activity_main.xml",
-        "source": "/home/traveler/licJW/app/src/main/res/layout/activity_main.xml"
+        "merged": "C:\\Users\\amQel\\lic\\remembrCall\\app\\build\\intermediates\\res\\merged\\debug\\layout\\single_contact.xml",
+        "source": "C:\\Users\\amQel\\lic\\remembrCall\\app\\src\\main\\res\\layout\\single_contact.xml"
+    },
+    {
+        "merged": "C:\\home\\traveler\\licJW\\app\\build\\intermediates\\res\\merged\\debug\\layout\\single_contact.xml",
+        "source": "C:\\home\\traveler\\licJW\\app\\src\\main\\res\\layout\\single_contact.xml"
+    },
+    {
+        "merged": "C:\\Users\\amQel\\lic\\remembrCall\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main.xml",
+        "source": "C:\\Users\\amQel\\lic\\remembrCall\\app\\src\\main\\res\\layout\\activity_main.xml"
     }
 ]
